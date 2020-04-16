@@ -1,0 +1,96 @@
+%==============================================================================
+% Sjabloon onderzoeksvoorstel bachelorproef
+%==============================================================================
+% Gebaseerd op LaTeX-sjabloon ‘Stylish Article’ (zie voorstel.cls)
+% Auteur: Jens Buysse, Bert Van Vreckem
+%
+% Compileren in TeXstudio:
+%
+% - Zorg dat Biber de bibliografie compileert (en niet Biblatex)
+%   Options > Configure > Build > Default Bibliography Tool: "txs:///biber"
+% - F5 om te compileren en het resultaat te bekijken.
+% - Als de bibliografie niet zichtbaar is, probeer dan F5 - F8 - F5
+%   Met F8 compileer je de bibliografie apart.
+%
+% Als je JabRef gebruikt voor het bijhouden van de bibliografie, zorg dan
+% dat je in ``biblatex''-modus opslaat: File > Switch to BibLaTeX mode.
+
+\documentclass{voorstel}
+\usepackage{tabularx}
+%------------------------------------------------------------------------------
+% Metadata over het voorstel
+%------------------------------------------------------------------------------
+
+%---------- Titel & auteur ----------------------------------------------------
+
+% TODO: geef werktitel van je eigen voorstel op
+\PaperTitle{Zal een progressive web app de native app vervangen?}
+\PaperType{Onderzoeksvoorstel Bachelorproef 2019-2020} % Type document
+
+% TODO: vul je eigen naam in als auteur, geef ook je emailadres mee!
+\Authors{Robbie Verdurme\textsuperscript{1}} % Authors
+\CoPromotor{Bart Delrue\textsuperscript{2} (Digipolis)}
+\affiliation{\textbf{Contact:}
+   \textsuperscript{1} \href{mailto:robbie.verdurme.y9234@student.hogent.be}{robbie.verdurme.y9234@student.hogent.be}; \textsuperscript{2} \href{mailto:bart.delrue@digipolis.be}{bart.delrue@digipolis.be};
+}
+
+%---------- Abstract ----------------------------------------------------------
+
+\Abstract{
+De native app is al even de voornaamste manier om apps te ontwikkelen. Deze heeft een groot nadeel als er zowel voor android als voor ios een applicatie ontwikkeld moet worden. Dan zijn er immers verschillende code bases die onderhoud vereisen. Daaruit is het cross-platform development ontstaan. Dit staat nog niet op punt. Gelijktijdig werkten de webdevelopers aan een oplossing voor dit probleem. Deze hebben nu een oplossing namelijk een PWA. Een PWA heeft als grote voordeel dat er maar één codebase is voor de meeste platformen. Safari ondersteunt de service worker nog niet. Om die reden worden beide oplossingen momenteel vergeleken op vlak van snelheid en benodigde ruimte. De verwachtingen van deze paper zijn dat de PWA minder ruimte vraagt op het apparaat omwille van de service worker die in de PWA verwerkt zit. Deze gaat alle data die opgevraagd wordt bijhouden (cashen), zodat deze later offline beschikbaar zijn. Dit zorgt ervoor dat de PWA een paar milliseconden trager laadt dan de traditionele native app.
+%	Hier schrijf je de samenvatting van je voorstel, als een doorlopende tekst van één paragraaf. Wat hier zeker in moet vermeld worden: \textbf{Context} (Waarom is dit werk belangrijk?); \textbf{Nood} (Waarom moet dit onderzocht worden?); \textbf{Taak} (Wat ga je (ongeveer) doen?); \textbf{Object} (Wat staat in dit document geschreven?); \textbf{Resultaat} (Wat verwacht je van je onderzoek?); \textbf{Conclusie} (Wat verwacht je van van de conclusies?); \textbf{Perspectief} (Wat zegt de toekomst voor dit werk?).
+%	Bij de sleutelwoorden geef je het onderzoeksdomein, samen met andere sleutelwoorden die je werk beschrijven.	
+%	Vergeet ook niet je co-promotor op te geven.
+}
+
+%---------- Onderzoeksdomein en sleutelwoorden --------------------------------
+% TODO: Sleutelwoorden:
+%
+% Het eerste sleutelwoord beschrijft het onderzoeksdomein. Je kan kiezen uit
+% deze lijst:
+%
+% - Mobiele applicatieontwikkeling
+% - Webapplicatieontwikkeling
+% - Applicatieontwikkeling (andere)
+% - Systeembeheer
+% - Netwerkbeheer
+% - Mainframe
+% - E-business
+% - Databanken en big data
+% - Machineleertechnieken en kunstmatige intelligentie
+% - Andere (specifieer)
+%
+% De andere sleutelwoorden zijn vrij te kiezen
+
+\Keywords{Webapplicatieontwikkeling --- Kotlin --- Vue.js --- Progressive web app(PWA) } % Keywords
+\newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
+
+%---------- Titel, inhoud -----------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+\maketitle % Print the title and abstract box
+\tableofcontents % Print the contents section
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%------------------------------------------------------------------------------
+% Hoofdtekst
+%------------------------------------------------------------------------------
+
+% De hoofdtekst van het voorstel zit in een apart bestand, zodat het makkelijk
+% kan opgenomen worden in de bijlagen van de bachelorproef zelf.
+\input{voorstel-inhoud}
+
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+% TODO: de gerefereerde werken moeten in BibTeX-bestand ``voorstel.bib''
+% voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
+% om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
+% BibLaTeX mode)
+
+\phantomsection
+\printbibliography[heading=bibintoc]
+
+\end{document}

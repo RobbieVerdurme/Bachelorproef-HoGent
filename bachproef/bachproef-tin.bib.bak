@@ -1,0 +1,104 @@
+% Encoding: UTF-8
+@book{Knuth1998,
+ author = {Knuth, Donald E.},
+ title = {The art of computer programming,  volume 3: (2nd ed.) sorting and searching},
+ year = {1998},
+ publisher = {Addison Wesley Longman Publishing Co., Inc.},
+ address = {Redwood City, CA, USA}
+}
+
+@book{Pollefliet2011,
+  author = {Pollefliet, Leen},
+  title = {Schrijven van verslag tot eindwerk: do's en don'ts},
+  year = {2011},
+  publisher = {Academia Press},
+  address = {Gent}
+}
+
+@article{Creeger2009,
+  author = {Creeger, Mache},
+  journal = {Communications of the ACM},
+  number = {8},
+  pages = {50--56},
+  title = {{CTO Roundtable: Cloud Computing}},
+  volume = {52},
+  year = {2009}
+}
+
+@Online{WIKI_FRAMEWORK,
+  author = {Wikipedia},
+  title  = {Framework},
+  year   = {2019},
+  date   = {2019-09-05},
+  url    = {https://nl.wikipedia.org/wiki/Framework},
+}
+
+@Online{NUXTJS,
+  author = {VueSchool},
+  title  = {What is Nuxt.js?},
+  url    = {https://vueschool.io/lessons/what-is-nuxtjs},
+}
+
+@Online{WORKBOX_STRATEGIES,
+  author = {Google},
+  title  = {Workbox Strategies},
+  year   = {2020},
+  date   = {2020-04-07},
+  url    = {https://developers.google.com/web/tools/workbox/modules/workbox-strategies},
+}
+
+@Online{MANIFEST,
+  author = {MDN web docs},
+  title  = {Web app manifests},
+  year   = {2020},
+  date   = {2020-04-01},
+  url    = {https://developer.mozilla.org/en-US/docs/Web/Manifest},
+}
+
+@Online{FRAMEWORKS_PROGRESSIVEWEBAPPS,
+  author = {Mehul Rajput},
+  title  = {Best Frameworks for Building Progressive Web Apps},
+  year   = {2019},
+  date   = {2019-08-01},
+  url    = {https://www.mindinventory.com/blog/best-progressive-web-apps-frameworks/},
+}
+
+@Online{KOTLIN,
+  author = {Wikipedia},
+  title  = {Kotlin (programmeertaal)},
+  year   = {2020},
+  date   = {2020-03-10},
+  url    = {https://nl.wikipedia.org/wiki/Kotlin_(programmeertaal)},
+}
+
+@Article{KOTLIN_VS_JAVA,
+  author = {Pol De Puysseleyr},
+  title  = {VERGELIJKENDE STUDIE ANDROID: PERFORMANTIE VAN KOTLIN VS.JAVA BIJ DATA INTENSIEVE APPLICATIES},
+  year   = {2018},
+}
+
+@Online{KOTIN_VS_XAMARIN,
+  author = {Tomasz Babiuk},
+  title  = {Choosing the best cross-platform framework for sharing code between iOS and Android.},
+  year   = {2018},
+  date   = {2018-10-23},
+  url    = {https://medium.com/@tomasz.babiuk/choosing-the-best-cross-platform-framework-for-sharing-code-between-ios-and-android-fa45b8162c81},
+}
+
+@Online{PWA_EXTRA_FEATURES,
+  author = {Snipcart},
+  title  = {Vue PWA: A Progressive Web Application Example With Nuxt},
+  year   = {2019},
+  date   = {2019-09-06},
+  url    = {https://snipcart.com/blog/vue-pwa#repo},
+}
+
+@Online{PWA_EXTRA_FEATURES_2,
+  author = {Sam Saltis},
+  title  = {What is a Progressive Web App? (And Do You Need One)},
+  year   = {2020},
+  date   = {2020-04-06},
+  url    = {https://www.coredna.com/blogs/progressive-web-app},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}

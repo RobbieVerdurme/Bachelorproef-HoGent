@@ -1,0 +1,143 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Why_PWA_over_NativeApp}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9088fce39c89897749789a0ac2199292}{%
+           family={Experius},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9088fce39c89897749789a0ac2199292}
+      \strng{fullhash}{9088fce39c89897749789a0ac2199292}
+      \strng{bibnamehash}{9088fce39c89897749789a0ac2199292}
+      \strng{authorbibnamehash}{9088fce39c89897749789a0ac2199292}
+      \strng{authornamehash}{9088fce39c89897749789a0ac2199292}
+      \strng{authorfullhash}{9088fce39c89897749789a0ac2199292}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Progressive Web Apps: de toekomst voor webshops is hier}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.experius.nl/pwa
+      \endverb
+      \verb{url}
+      \verb https://www.experius.nl/pwa
+      \endverb
+    \endentry
+    \entry{PWA_vs_Cross-Platform}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0840d9b2df853977ad7b4f140dea1117}{%
+           family={Marjchrzak},
+           familyi={M\bibinitperiod},
+           given={Tim\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0840d9b2df853977ad7b4f140dea1117}
+      \strng{fullhash}{0840d9b2df853977ad7b4f140dea1117}
+      \strng{bibnamehash}{0840d9b2df853977ad7b4f140dea1117}
+      \strng{authorbibnamehash}{0840d9b2df853977ad7b4f140dea1117}
+      \strng{authornamehash}{0840d9b2df853977ad7b4f140dea1117}
+      \strng{authorfullhash}{0840d9b2df853977ad7b4f140dea1117}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{1}
+      \field{title}{Progressive Web Apps: the Definite Approach to Cross-Platform Development?}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Tinder_PWA}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d44fced3055604fd09c4e99476a58f00}{%
+           family={Osmani},
+           familyi={O\bibinitperiod},
+           given={Addy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{fullhash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{bibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorbibnamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authornamehash}{d44fced3055604fd09c4e99476a58f00}
+      \strng{authorfullhash}{d44fced3055604fd09c4e99476a58f00}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{month}{12}
+      \field{title}{A Tinder Progressive Web App Performance Case Study}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0
+      \endverb
+    \endentry
+    \entry{Webview_PWA}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=533ea228fe8ef83459e123ab327d1284}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{fullhash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{bibnamehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{authorbibnamehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{authornamehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{authorfullhash}{533ea228fe8ef83459e123ab327d1284}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{4}
+      \field{title}{What is in a Web View? An Analysis of Progressive Web App Features When the Means of Web Access is not a Web Browser}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

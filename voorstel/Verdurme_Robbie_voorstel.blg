@@ -1,0 +1,15 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'Verdurme_Robbie_voorstel.blg'
+[55] biber-MSWIN64:313> INFO - === 
+[103] Biber.pm:371> INFO - Reading 'Verdurme_Robbie_voorstel.bcf'
+[281] Biber.pm:857> INFO - Found 4 citekeys in bib section 0
+[308] Biber.pm:3976> INFO - Processing section 0
+[332] Biber.pm:4136> INFO - Looking for bibtex format file 'voorstel.bib' for section 0
+[337] bibtex.pm:1490> INFO - LaTeX decoding ...
+[347] bibtex.pm:1306> INFO - Found BibTeX data source 'voorstel.bib'
+[396] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[396] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[396] Biber.pm:3804> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[396] Biber.pm:3810> INFO - No sort tailoring available for locale 'nl-NL'
+[415] bbl.pm:617> INFO - Writing 'Verdurme_Robbie_voorstel.bbl' with encoding 'UTF-8'
+[419] bbl.pm:720> INFO - Output to Verdurme_Robbie_voorstel.bbl
