@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.14)  18 APR 2020 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.14)  18 APR 2020 15:49
 entering extended mode
 **./bachproef-tin.tex
 (bachproef-tin.tex
@@ -2562,7 +2562,7 @@ Package logreq Info: Writing requests to 'bachproef-tin.run.xml'.
 Here is how much of TeX's memory you used:
  38738 strings out of 493303
  722097 string characters out of 3138844
- 1235837 words of memory out of 3000000
+ 1235932 words of memory out of 3000000
  41432 multiletter control sequences out of 15000+200000
  583198 words of font info for 164 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2572,7 +2572,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bachproef-tin.pdf (32 pages, 231449 bytes).
+Output written on bachproef-tin.pdf (32 pages, 231473 bytes).
 PDF statistics:
  403 PDF objects out of 1000 (max. 8388607)
  92 named destinations out of 1000 (max. 500000)
