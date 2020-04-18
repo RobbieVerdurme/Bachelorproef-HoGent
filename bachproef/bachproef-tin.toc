@@ -13,21 +13,69 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Stand van zaken}{15}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{17}{chapter.3}
+\contentsline {section}{\numberline {2.1}Progressive web applicatie}{15}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{19}{chapter.4}
+\contentsline {subsection}{\numberline {2.1.1}Service worker}{15}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{21}{appendix.A}
+\contentsline {subsubsection}{Stale-While-Revalidate}{15}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{21}{section.A.1}
+\contentsline {subsubsection}{Offline first}{16}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Stand van zaken}{22}{section.A.2}
+\contentsline {subsubsection}{Online first}{16}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{22}{section.A.3}
+\contentsline {subsubsection}{Network Only}{16}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwachte resultaten}{22}{section.A.4}
+\contentsline {subsubsection}{Cache Only}{16}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Verwachte conclusies}{22}{section.A.5}
+\contentsline {subsection}{\numberline {2.1.2}Manifest}{16}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{23}{appendix*.6}
+\contentsline {subsubsection}{Auteur}{16}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Icoon}{16}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Versie}{17}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Omschrijving}{17}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Frameworks}{17}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Wat is een framework ?}{17}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Requirements}{17}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Gekozen frameworks}{18}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Progressive web applicatie}{18}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Angular 2+}{18}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{React}{18}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ionic}{18}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Polymer}{18}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Native applicatie}{18}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Java}{18}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Xamarin}{19}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Methodologie}{21}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclusie}{23}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{25}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Introductie}{25}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Stand van zaken}{26}{section.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{26}{section.A.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwachte resultaten}{26}{section.A.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Verwachte conclusies}{28}{section.A.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{29}{appendix*.23}
 \contentsfinish 

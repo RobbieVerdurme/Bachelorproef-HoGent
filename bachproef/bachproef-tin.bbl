@@ -201,6 +201,34 @@
       \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
       \field{year}{2011}
     \endentry
+    \entry{Webview_PWA}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=533ea228fe8ef83459e123ab327d1284}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{fullhash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{bibnamehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{authorbibnamehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{authornamehash}{533ea228fe8ef83459e123ab327d1284}
+      \strng{authorfullhash}{533ea228fe8ef83459e123ab327d1284}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{4}
+      \field{title}{What is in a Web View? An Analysis of Progressive Web App Features When the Means of Web Access is not a Web Browser}
+      \field{year}{2018}
+      \field{dateera}{ce}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
