@@ -19,35 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{Creeger2009}{article}{}
+    \entry{KOTIN_VS_XAMARIN}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=e888aba3556efbb8063540e3e2ae69b4}{%
-           family={Creeger},
-           familyi={C\bibinitperiod},
-           given={Mache},
-           giveni={M\bibinitperiod},
+        {{uniquename=0,uniquepart=base,hash=15c8cccebb204d9a37a40d2a65bb92b5}{%
+           family={Babiuk},
+           familyi={B\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{fullhash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{bibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authorbibnamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authornamehash}{e888aba3556efbb8063540e3e2ae69b4}
-      \strng{authorfullhash}{e888aba3556efbb8063540e3e2ae69b4}
-      \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \strng{namehash}{15c8cccebb204d9a37a40d2a65bb92b5}
+      \strng{fullhash}{15c8cccebb204d9a37a40d2a65bb92b5}
+      \strng{bibnamehash}{15c8cccebb204d9a37a40d2a65bb92b5}
+      \strng{authorbibnamehash}{15c8cccebb204d9a37a40d2a65bb92b5}
+      \strng{authornamehash}{15c8cccebb204d9a37a40d2a65bb92b5}
+      \strng{authorfullhash}{15c8cccebb204d9a37a40d2a65bb92b5}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Communications of the ACM}
-      \field{number}{8}
-      \field{title}{{CTO Roundtable: Cloud Computing}}
-      \field{volume}{52}
-      \field{year}{2009}
-      \field{pages}{50\bibrangedash 56}
-      \range{pages}{7}
+      \field{day}{23}
+      \field{month}{10}
+      \field{title}{Choosing the best cross-platform framework for sharing code between iOS and Android.}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@tomasz.babiuk/choosing-the-best-cross-platform-framework-for-sharing-code-between-ios-and-android-fa45b8162c81
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@tomasz.babiuk/choosing-the-best-cross-platform-framework-for-sharing-code-between-ios-and-android-fa45b8162c81
+      \endverb
     \endentry
     \entry{Why_PWA_over_NativeApp}{online}{}
       \name{author}{1}{}{%
@@ -77,36 +81,36 @@
       \verb https://www.experius.nl/pwa
       \endverb
     \endentry
-    \entry{Knuth1998}{book}{}
+    \entry{WORKBOX_STRATEGIES}{online}{}
       \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=fcbea740aeb72b8e941e0d4aa9f6a9c6}{%
-           family={Knuth},
-           familyi={K\bibinitperiod},
-           given={Donald\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Redwood City, CA, USA}%
-      }
-      \list{publisher}{1}{%
-        {Addison Wesley Longman Publishing Co., Inc.}%
-      }
-      \strng{namehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{fullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{bibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{authorbibnamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{authornamehash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \strng{authorfullhash}{fcbea740aeb72b8e941e0d4aa9f6a9c6}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{The art of computer programming, volume 3: (2nd ed.) sorting and searching}
-      \field{year}{1998}
+      \field{day}{7}
+      \field{month}{4}
+      \field{title}{Workbox Strategies}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/web/tools/workbox/modules/workbox-strategies
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/web/tools/workbox/modules/workbox-strategies
+      \endverb
     \endentry
     \entry{PWA_vs_Cross-Platform}{article}{}
       \name{author}{1}{}{%
@@ -201,6 +205,130 @@
       \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
       \field{year}{2011}
     \endentry
+    \entry{KOTLIN_VS_JAVA}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2b656ce8660318736cb38cbb58ed249d}{%
+           family={Puysseleyr},
+           familyi={P\bibinitperiod},
+           given={Pol\bibnamedelima De},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b656ce8660318736cb38cbb58ed249d}
+      \strng{fullhash}{2b656ce8660318736cb38cbb58ed249d}
+      \strng{bibnamehash}{2b656ce8660318736cb38cbb58ed249d}
+      \strng{authorbibnamehash}{2b656ce8660318736cb38cbb58ed249d}
+      \strng{authornamehash}{2b656ce8660318736cb38cbb58ed249d}
+      \strng{authorfullhash}{2b656ce8660318736cb38cbb58ed249d}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{VERGELIJKENDE STUDIE ANDROID: PERFORMANTIE VAN KOTLIN VS.JAVA BIJ DATA INTENSIEVE APPLICATIES}
+      \field{year}{2018}
+    \endentry
+    \entry{FRAMEWORKS_PROGRESSIVEWEBAPPS}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0d1dcbac07243c945a5a823e627fa9a}{%
+           family={Rajput},
+           familyi={R\bibinitperiod},
+           given={Mehul},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0d1dcbac07243c945a5a823e627fa9a}
+      \strng{fullhash}{d0d1dcbac07243c945a5a823e627fa9a}
+      \strng{bibnamehash}{d0d1dcbac07243c945a5a823e627fa9a}
+      \strng{authorbibnamehash}{d0d1dcbac07243c945a5a823e627fa9a}
+      \strng{authornamehash}{d0d1dcbac07243c945a5a823e627fa9a}
+      \strng{authorfullhash}{d0d1dcbac07243c945a5a823e627fa9a}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{8}
+      \field{title}{Best Frameworks for Building Progressive Web Apps}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mindinventory.com/blog/best-progressive-web-apps-frameworks/
+      \endverb
+      \verb{url}
+      \verb https://www.mindinventory.com/blog/best-progressive-web-apps-frameworks/
+      \endverb
+    \endentry
+    \entry{PWA_EXTRA_FEATURES_2}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d9a57c2231896d20c85344717d0a42ed}{%
+           family={Saltis},
+           familyi={S\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9a57c2231896d20c85344717d0a42ed}
+      \strng{fullhash}{d9a57c2231896d20c85344717d0a42ed}
+      \strng{bibnamehash}{d9a57c2231896d20c85344717d0a42ed}
+      \strng{authorbibnamehash}{d9a57c2231896d20c85344717d0a42ed}
+      \strng{authornamehash}{d9a57c2231896d20c85344717d0a42ed}
+      \strng{authorfullhash}{d9a57c2231896d20c85344717d0a42ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{4}
+      \field{title}{What is a Progressive Web App? (And Do You Need One)}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.coredna.com/blogs/progressive-web-app
+      \endverb
+      \verb{url}
+      \verb https://www.coredna.com/blogs/progressive-web-app
+      \endverb
+    \endentry
+    \entry{PWA_EXTRA_FEATURES}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b04cb383a2d11b28629e4c8d19b97f72}{%
+           family={Snipcart},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b04cb383a2d11b28629e4c8d19b97f72}
+      \strng{fullhash}{b04cb383a2d11b28629e4c8d19b97f72}
+      \strng{bibnamehash}{b04cb383a2d11b28629e4c8d19b97f72}
+      \strng{authorbibnamehash}{b04cb383a2d11b28629e4c8d19b97f72}
+      \strng{authornamehash}{b04cb383a2d11b28629e4c8d19b97f72}
+      \strng{authorfullhash}{b04cb383a2d11b28629e4c8d19b97f72}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{month}{9}
+      \field{title}{Vue PWA: A Progressive Web Application Example With Nuxt}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://snipcart.com/blog/vue-pwa#repo
+      \endverb
+      \verb{url}
+      \verb https://snipcart.com/blog/vue-pwa#repo
+      \endverb
+    \endentry
     \entry{Webview_PWA}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=533ea228fe8ef83459e123ab327d1284}{%
@@ -228,6 +356,73 @@
       \field{title}{What is in a Web View? An Analysis of Progressive Web App Features When the Means of Web Access is not a Web Browser}
       \field{year}{2018}
       \field{dateera}{ce}
+    \endentry
+    \entry{MANIFEST}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=374d51acce74198ab6e1b854a613ac91}{%
+           family={docs},
+           familyi={d\bibinitperiod},
+           given={MDN},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={web},
+           prefixi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{374d51acce74198ab6e1b854a613ac91}
+      \strng{fullhash}{374d51acce74198ab6e1b854a613ac91}
+      \strng{bibnamehash}{374d51acce74198ab6e1b854a613ac91}
+      \strng{authorbibnamehash}{374d51acce74198ab6e1b854a613ac91}
+      \strng{authornamehash}{374d51acce74198ab6e1b854a613ac91}
+      \strng{authorfullhash}{374d51acce74198ab6e1b854a613ac91}
+      \field{sortinit}{w}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{4}
+      \field{title}{Web app manifests}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Manifest
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Manifest
+      \endverb
+    \endentry
+    \entry{WIKI_FRAMEWORK}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{month}{9}
+      \field{title}{Framework}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://nl.wikipedia.org/wiki/Framework
+      \endverb
+      \verb{url}
+      \verb https://nl.wikipedia.org/wiki/Framework
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
