@@ -37,16 +37,16 @@ mijnDataFilter <- read.csv(file.choose())
 mijnDataMenu <- read.csv(file.choose())
 
 ## FILTER TEST (PWA, OFFLINE PWA, NATIVE APP)
-boxplot(mijnDataFilter$ï..PWA, mijnDataFilter$Offline.PWA, mijnDataFilter$Native.App, main="Vind menu test",names = c("PWA", "Offline PWA", "Native App"), ylim = c(2,4.5), xlab="Tijd",horizontal=TRUE, col= c("skyblue","skyblue", "orange"))
+boxplot(mijnDataFilter$ï..PWA, mijnDataFilter$Offline.PWA, mijnDataFilter$Native.App, main="Filter test",names = c("PWA", "Offline PWA", "Native App"), ylim = c(2,4.5), xlab="Tijd",horizontal=TRUE, col= c("skyblue","skyblue", "orange"))
 
 ## DETAIL MENU TEST
 boxplot(mijnDataMenu$ï..PWA, mijnDataMenu$Offline.PWA, mijnDataMenu$Native.App, main="Detail menu test",names = c("PWA", "Offline PWA", "Native App"), ylim = c(2,4.5), xlab="Tijd",horizontal=TRUE, col= c("skyblue","skyblue", "orange"))
 
 ## FILTERTEST PWA VS OFFLINE PWA
-boxplot(mijnDataFilter$ï..PWA, mijnDataFilter$Offline.PWA, main="Vind menu test PWA",names = c("PWA", "Offline PWA"), ylim = c(2,4.5), xlab="Tijd",horizontal=TRUE, col= c("skyblue","skyblue"))
+boxplot(mijnDataFilter$ï..PWA, mijnDataFilter$Offline.PWA, main="Filter test PWA",names = c("PWA", "Offline PWA"), ylim = c(2,4.5), xlab="Tijd",horizontal=TRUE, col= c("skyblue","skyblue"))
 
 ## DETAIL MENU TEST PWA VS OFFLINE PWA
-boxplot(mijnDataMenu$ï..PWA, mijnDataMenu$Offline.PWA, main="Menu test PWA",names = c("PWA", "Offline PWA"), ylim = c(2,4.5), xlab="Tijd",horizontal=TRUE, col= c("skyblue","skyblue"))
+boxplot(mijnDataMenu$ï..PWA, mijnDataMenu$Offline.PWA, main="Detail menu test PWA",names = c("PWA", "Offline PWA"), ylim = c(2,4.5), xlab="Tijd",horizontal=TRUE, col= c("skyblue","skyblue"))
 
 ###### SPEED TIMES STATISTIC TABLE
 ## PWA
