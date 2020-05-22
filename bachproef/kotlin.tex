@@ -1,0 +1,134 @@
+\chapter{\IfLanguageName{dutch}{Kotlin}{Kotlin}}
+\label{ch:kotlin}
+Kotlin is een cross-platform programmeertaal, ontworpen om naadloos samen te werken met Java. Deze wordt officieel ondersteund door Google voor het ontwikkelen van mobiele apps op Android (\cite{KOTLIN}).
+
+\section{\IfLanguageName{dutch}{Basisprincipes}{Basisprincipes}}
+\label{sec:basisprincipes}
+
+% NULL SAFETY
+\subsection{Null safety}
+%VARIABLE
+Null saftey of null veiligheid is een feature die ingebouwd is in Kotlin (\cite{NULL_SAFETY}). Deze feature zorgt ervoor dat variabelen niet de waarde null kunnen bevatten. Als een variabele null zou kunnen bevatten geeft Kotlin hierop een error. Door deze feature kan je met Kotlin bijna nooit een null pointer error hebben. 
+
+\begin{lstlisting}[caption=Null safty variablen, language=Kotlin]
+var a: String = "abc"
+a = null // error
+\end{lstlisting}
+
+
+%LIVEDATA
+Dit is echter wel mogelijk als er een livedata variable of varianten hiervan worden aangemaakt. De livedata waarde List<String> wordt altijd geïnitieerd met null, indien dit niet gewenst is kan men deze altijd meegeven met een beginwaarde tussen de haakjes.
+
+\begin{lstlisting}[caption=Null safty LiveData, language=Kotlin]
+var c = MutableLiveData<List<String>>()
+\end{lstlisting}
+
+
+%NULL SAFTY OVERRIDE
+Om de null veiligheid te overschrijven moet er een vraagteken geplaatst worden naast het datatype. Het vraagteken slaat erop dat de variabele nu de waarde null of een waarde van het datatype kan bevatten.
+
+\begin{lstlisting}[caption=Overschrijf null safty, language=Kotlin]
+var b: String? = "abc" // kan met null geïnstalleerd worden
+b = null // ok
+\end{lstlisting}
+
+
+%NULL SAFTY OVERRIDE WARNING
+Indien Kotlin een waarschuwing geeft bij een waarde die geen null kan zijn kunnen er twee uitroeptekens bij geplaatst worden Door dit te doen gaat kotlin ervanuit dat de waarde b nooit een null kan bevatten op die lijn code.
+
+\begin{lstlisting}[caption=Waarschuwing null safty overschrijven, language=Kotlin]
+val l = b!!.length
+\end{lstlisting}
+
+
+% LIVEDATA
+\subsection{LiveData}
+Livedata (\cite{LIVEDATA}) is een observable die lifecycle-aware is. Dit betekent dat livedata de lifecycle van de verschillende app componenten zoals activiteiten, fragmenten en services respecteert.
+
+\begin{lstlisting}[caption=LiveData, language=Kotlin]
+var c = MutableLiveData<List<String>>()
+\end{lstlisting}
+
+
+% LIFECYLE AWARE
+Aangezien livedata lifecycle-aware is moet ervoor het observeren van de livedata variable geen rekening gehouden worden met de verschillende staten dat de applicatie in komt. Hieronder is er een voorbeeld zichtbaar van een observatie van een livedata variable c.
+
+\begin{lstlisting}[caption=Observe liveData, language=Kotlin]
+c.observe(viewLifecycleOwner, Observer {
+	a = it
+})
+\end{lstlisting}
+
+
+% Databinding
+\subsection{Databinding}
+Databinding (\cite{KOTLIN_DATABINDING}) zorgt ervoor dat de data in de UI automatisch wordt geüpdatet indien er een nieuwe waarde is van de variabele userName. Om deze te kunnen gebruiken moet er gebruik gemaakt worden van de layout tag, met hierin de data tag met welke variabele dat er moet gebind worden. Op deze manier wordt de scope van de data tag afgebakend. 
+
+\begin{lstlisting}[caption=Databinding]
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<data>
+	<variable 
+	name="viewmodel"
+	type="com.myapp.data.ViewModel" />
+</data>
+<ConstraintLayout>
+	<TextView android:text="@{viewmodel.userName}" />
+</ConstraintLayout>
+</layout>
+\end{lstlisting}
+
+
+% Coroutines
+\subsection{Coroutines}
+Coroutines (\cite{KOTLIN_COROUTINE}) zorgen ervoor dat er acties asynchroon worden uitgevoerd. Dit is nodig voor de main thread waar de applicatie op draait vrij te houden voor IO inputs zoals touch commands.
+Zoals te zien is in onderstaand voorbeeld wordt er gebruik gemaakt van coroutines om een viewModelScope te lanceren. Alles binnen deze viewModelScope zal synchroon uitgevoerd worden op de applicatie.
+
+\begin{lstlisting}[caption=Coroutine, language=Kotlin]
+var c: List<String> = Arraylist<String>()
+
+viewModelScope.launch {
+	val repositoryResponse = async {
+		repsitory.doSomething()
+	}
+	val dataOrError = repositoryResponse.await()
+	if(dataOrError.hasError()){
+		requestError.value = genericErrorMessage
+	}else{
+		c.clear()
+		c.addAll(dataOrError.data)
+	}
+}
+\end{lstlisting}
+
+% Koin
+\subsection{Koin}
+Koin (\cite{KOTLIN_KOIN}) is een framework dat zorgt voor de dependency injection voor in een applicatie. Dependency injection is een ontwerppatroon om klassen te koppelen. Dit wil zeggen dat ze data kunnen uitwisselen zonder dat deze relatie vastgelegd is (\cite{KOTLIN_KOIN_DEPENDENCYINJECTION}).
+
+\begin{lstlisting}[caption=Koin, language=Kotlin]
+override fun onCreate() {
+	super.onCreate()
+	setupKoin()
+	}
+
+/**
+* Setup DI with Koin.
+*/
+private fun setupKoin(){
+	startKoin {
+	androidLogger()
+	androidContext(this@App)
+	modules(listOf(repositoryModule))
+}
+}
+/**
+* Setup the repository module.
+* Is public since we mock the repositories in tests.
+*/
+private val repositoryModule = module {
+	single<IUserRepository> {
+		UserRepository(get(), get(), get(),get(),get())
+	}
+}
+\end{lstlisting}

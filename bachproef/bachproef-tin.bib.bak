@@ -101,4 +101,186 @@
   url    = {https://www.coredna.com/blogs/progressive-web-app},
 }
 
+@Online{DIFF_NATIVEAPP_PWA,
+  author = {Joey Verwey},
+  title  = {Verschillen Web-app, Native-app, Hybride-app en Progressive-app},
+  year   = {2018},
+  date   = {2018-05-31},
+  url    = {https://www.dailycreations.nl/posts/verschil-webapp-native-app-en-hybride-app},
+}
+
+@Online{DEFINITION_PWA,
+  author = {Wikipedia},
+  title  = {Progressive web application},
+  year   = {2020},
+  date   = {2020-05-03},
+  url    = {https://en.wikipedia.org/wiki/Progressive_web_application},
+}
+
+@Online{LIVEDATA,
+  author = {Android Developers},
+  title  = {LiveData Overview},
+  year   = {2020},
+  date   = {2020-01-22},
+  url    = {https://developer.android.com/topic/libraries/architecture/livedata},
+}
+
+@Online{NULL_SAFETY,
+  author = {JetBrains},
+  title  = {Null Safety},
+  year   = {2020},
+  date   = {2020-04-21},
+  url    = {https://kotlinlang.org/docs/reference/null-safety.html},
+}
+
+@Online{KOTLIN_DATABINDING,
+  author = {Android Developers},
+  title  = {Data Binding Library},
+  year   = {2019},
+  date   = {2019-12-27},
+  url    = {https://developer.android.com/topic/libraries/data-binding},
+}
+
+@Online{KOTLIN_COROUTINE,
+  author = {Kotlin},
+  title  = {Coroutine Basics},
+  year   = {2020},
+  date   = {2020-02-14},
+  url    = {https://kotlinlang.org/docs/reference/coroutines/basics.html},
+}
+
+@Online{KOTLIN_KOIN,
+  author = {Koin},
+  title  = {What is Koin?},
+  url    = {https://insert-koin.io/},
+}
+
+@Online{KOTLIN_KOIN_DEPENDENCYINJECTION,
+  author = {Wikipedia},
+  title  = {Dependency injection},
+  year   = {2020},
+  date   = {2020-04-17},
+  url    = {https://nl.wikipedia.org/wiki/Dependency_injection},
+}
+
+@Online{VUE_DECLARATIVERENDERING,
+  author = {Vue.js},
+  title  = {Declarative Rendering},
+  year   = {2020},
+  date   = {2020-02-24},
+  url    = {https://vuejs.org/v2/guide/index.html#Declarative-Rendering},
+}
+
+@Online{VUE_CONDITIONALSANDLOOPS,
+  author = {Vue.js},
+  title  = {Conditionals and Loops},
+  year   = {2020},
+  date   = {2020-02-24},
+  url    = {https://vuejs.org/v2/guide/index.html#Conditionals-and-Loops},
+}
+
+@Online{VUE_COMPONENTS,
+  author = {Vue.js},
+  title  = {Components Basics},
+  year   = {2020},
+  date   = {2020-01-26},
+  url    = {https://vuejs.org/v2/guide/components.html},
+}
+
+@Online{VUEJS,
+  author = {Vue.js},
+  title  = {What is Vue.js?},
+  year   = {2020},
+  date   = {2020-02-24},
+  url    = {https://vuejs.org/v2/guide/},
+}
+
+@Online{NUXT_SERVERSIDERENDERING,
+  author = {David East},
+  title  = {What is Server-Side Rendering? (Server-side Rendering with JavaScript Frameworks)},
+  year   = {2017},
+  date   = {2017-09-14},
+  url    = {https://www.youtube.com/watch?v=GQzn7XRdzxY},
+}
+
+@Online{NUXT_PRERENDERING,
+  author = {Gary Simon},
+  title  = {Vue SEO Tutorial with Prerendering},
+  year   = {2018},
+  date   = {2018-02-19},
+  url    = {https://www.youtube.com/watch?v=pwHdFPEX4NA},
+}
+
+@Online{NUXT_CONFIGURATION,
+  author = {Nuxt.js},
+  title  = {Configuration},
+  year   = {2019},
+  date   = {2019-11-20},
+  url    = {https://nuxtjs.org/guide/configuration},
+}
+
+@Online{NUXT_DIRECTORYSTRUCTURE,
+  author = {Nuxt.js},
+  title  = {Directory Structure},
+  year   = {2020},
+  date   = {2020-03-31},
+  url    = {https://nuxtjs.org/guide/directory-structure},
+}
+
+@Online{NUXT_ROUTING,
+  author = {Nuxt.js},
+  title  = {Routing},
+  year   = {2020},
+  date   = {2020-01-23},
+  url    = {https://nuxtjs.org/guide/routing},
+}
+
+@Online{NUXT_VUEXSTORE,
+  author = {Nuxt.js},
+  title  = {Vuex Store},
+  year   = {2020},
+  date   = {2020-03-29},
+  url    = {https://nuxtjs.org/guide/vuex-store},
+}
+
+@Online{NUXT_MODULES,
+  author = {Nuxt.js},
+  title  = {Modules},
+  year   = {2020},
+  date   = {2020-03-20},
+  url    = {https://nuxtjs.org/guide/modules},
+}
+
+@Online{NUXT_PLUGINS,
+  author = {Nuxt.js},
+  title  = {Plugins},
+  year   = {2019},
+  date   = {2019-10-24},
+  url    = {https://nuxtjs.org/guide/plugins},
+}
+
+@Online{BROWSERSUPPORT_IOS,
+  author = {Maximiliano Firtman},
+  title  = {Progressive Web Apps on iOS are here},
+  year   = {2018},
+  date   = {2018-03-30},
+  url    = {https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7},
+}
+
+@Online{PLAYSTORE,
+  author = {Maximiliano Firtman},
+  title  = {Google Play Store now open for Progressive Web Apps},
+  year   = {2019},
+  date   = {2019-01-31},
+  url    = {https://medium.com/@firt/google-play-store-now-open-for-progressive-web-apps-ec6f3c6ff3cc},
+}
+
+@Online{APPSTORE,
+  author = {SimiCard},
+  title  = {Publishing PWAs to Major App Stores: The Whys and Hows},
+  year   = {2020},
+  date   = {2020-02-13},
+  url    = {https://www.simicart.com/blog/pwa-app-stores/#Apple App Store},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

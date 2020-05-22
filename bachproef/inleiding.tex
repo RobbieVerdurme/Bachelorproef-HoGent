@@ -20,17 +20,31 @@ De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}
 \label{sec:probleemstelling}
 
-Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's,'' systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
+Digipolis ontwikkelt verschillende webomgevingen voor de stad Gent. Voorbeelden hiervan zijn de website van de stad Gent (https://stad.gent) en visit Gent (https://visit.gent.be). Graag wil digipolis weten of een applicatie van stad Gent handig zou zijn voor de bezoeker, zodat deze de site niet meer moet opzoeken. Daarnaast heeft een applicatie heeft het voordeel van offline beschikbaar te zijn. Hierdoor kan de bezoeker zonder enige data te verbruiken de applicatie toch raadplegen.
+
+Voor dit probleem kan een progressive web applicatie de oplossing bieden. Een progressive web applicatie is een applicatiesoftware die via het web wordt geleverd en is gebouwd met veelgebruikte web technologieën zoals HTML, CSS en JavaScript. (\cite{DEFINITION_PWA}). Door deze technologie is er maar één codebase nodig voor de verschillende platformen(Android, IOS, Web) en moeten de aanpassingen en het onderhoud maar op één plaats toegepast worden.
+
+De native applicatie is een andere oplossing voor dit probleem. Een native applicatie wordt specifiek ontwikkeld voor een platform (Android, iOS, Windows Phone) in een eigen codeertaal (\cite{DIFF_NATIVEAPP_PWA}). Deze applicaties zijn enkel verkrijgbaar in de app store of play store. De applicatie zal niet beschikbaar zijn via de browser.
+
+Vervolgens wil men weten welke van deze twee oplossingen beter is op vlak van performance en benodigde ruimte. Bijkomend is het belangrijk om de applicatie snel terug te vinden in een vertrouwde omgeving en dat de applicatie er vertrouwd uitziet om de gebruikerservaring te garanderen.
+
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}
 \label{sec:onderzoeksvraag}
 
-Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
+Dit onderzoek zal nagaan hoever de progressive web applicatie de native applicatie kan benaderen. 
+Hiervoor zijn volgende onderzoeksvragen opgesteld:
+\begin{itemize}
+	\item Wat zijn de voordelen van PWA versus Native Apps?
+	\item Welke frameworks komen hiervoor in aanmerking?
+	\item  Wat is de impact van een PWA op de gebruikerservaring en toegankelijkheid?
+	\item Kan de PWA de native app vervangen?
+\end{itemize}
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}
 \label{sec:onderzoeksdoelstelling}
 
-Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv. om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
+De doelstelling van deze bachelorproef is een vergelijking maken tussen de native applicatie en een progressive web applicatie. Deze zullen getest worden op verschillende vlakken namelijk de performance, de benodigde ruimte en de gebruikerservaring. Uiteindelijk zal er een besluit gevormd worden waarin duidelijk zal gemaakt worden voor welke applicaties een progressive web applicatie de beste keuze is.
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}
 \label{sec:opzet-bachelorproef}
@@ -43,8 +57,9 @@ De rest van deze bachelorproef is als volgt opgebouwd:
 
 In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
 
-In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
-
 % TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
+In Hoofdstuk~\ref{ch:kotlin}, ~\ref{ch:vue} en ~\ref{ch:nuxt} worden de belangrijkste aspecten toegelicht van de gekozen frameworks
+
+In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.

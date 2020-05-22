@@ -3,10 +3,11 @@ mijnDataSnelheid <- read.csv(file.choose())
 mijnDataRuimte <- read.csv(file.choose())
 data <- mijnData
 
-colors = c("red", "orange")
+colors = c("orange","skyblue")
 
 #barplot ruimte in megebyte
-barplot(mijnDataRuimte$Ruimte, names.arg = mijnDataRuimte$Type, main = "Snelheid resultaat", xlab = "Type applicatie", ylab = "Ruimte in megabyte", col = colors)
+ruimte <- barplot(mijnDataRuimte$Ruimte, names.arg = mijnDataRuimte$Type, main = "Benodigde ruimte", xlab = "Type applicatie", ylab = "Ruimte in megabyte", col = colors, ylim = c(0,32))
+text(ruimte, mijnDataRuimte$Ruimte + .9, mijnDataRuimte$Ruimte, cex= .8)
 
 # boxplot snelheid
 PWA_score <- c(mijnDataSnelheid$Uitvoeringstijd[mijnDataSnelheid$Type=="PWA"]) #count 99

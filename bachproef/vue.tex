@@ -1,0 +1,99 @@
+\chapter{\IfLanguageName{dutch}{Vue.js}{Vue.js}}
+\label{ch:vue}
+Vue is een progressieve framework voor het bouwen van user interfaces. In tegenstelling tot andere monolithische kaders, wordt Vue vanaf de grond opgebouwd om stapsgewijs adoptable te zijn. De kernbibliotheek richt zich op de view layer alleen, en is gemakkelijk op te pikken en te integreren met andere bibliotheken of bestaande projecten. Aan de andere kant is Vue ook perfect in staat tot het voeden van geavanceerde Single-Page Applications bij gebruikt wordt in combinatie met moderne gereedschappen en ondersteunende bibliotheken (\cite{VUEJS}).
+
+\section{\IfLanguageName{dutch}{Basisprincipes}{Basisprincipes}}
+\label{sec:basisprincipes}
+
+% Declarative Rendering
+\subsection{Declarative Rendering}
+Declarative Rendering (\cite{VUE_DECLARATIVERENDERING}) zorgt ervoor dat de data in de html automatisch word geüpdatet indien er een nieuwe waarde is van de variabele message. Dit komt omdat de data en de DOM gelinkt zijn met elkaar, hierdoor is alles reactief.
+
+\begin{lstlisting}[caption=Declarative rendering html, language=HTML]
+<div id="app">
+	{{ message }}
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Declarative rendering javascript, language=Javascript]
+var app = new Vue({
+	el: '#app',
+	data: {
+		message: 'Hello Vue!'
+	}
+})
+\end{lstlisting}
+
+We kunnen de data ook op een andere manier linken met een html component. Deze gebruikt de v-bind: tag met de naam van het attribuut erachter. Dit zorgt ervoor dat de span title gebind is aan de waarde van message.
+
+\begin{lstlisting}[caption=Declarative rendering html alternatief, language=HTML]
+<div id="app">
+	<span v-bind:title="message">
+		Test bericht
+	</span>
+</div>
+\end{lstlisting}
+
+
+%Conditionals
+\subsection{Conditionals}
+In vue is er een mogelijkheid om verschillende html tags niet te renderen. Deze zijn gekend als conditionals (\cite{VUE_CONDITIONALSANDLOOPS}). Een conditional kan toegevoegd worden door een v-if attribuut toe te voegen aan de html tag. Deze zal valideren of de gegeven html tag moet gerenderd worden. 
+
+\begin{lstlisting}[caption=Conditionals html, language=HTML]
+<div id="app-3">
+	<span v-if="seen">Now you see me</span>
+</div>
+\end{lstlisting}
+
+
+%Loops
+\subsection{Loops}
+Loops (\cite{VUE_CONDITIONALSANDLOOPS}) kunnen toegevoegd worden aan html tags zodat deze meerdere keren worden gerenderd. Deze kan gebruikt worden voor lijsten weer te geven zonder voor elk element in de lijst een html li tag aan te maken.
+
+\begin{lstlisting}[caption=Loops html, language=HTML]
+<div id="app-4">
+	<ol>
+		<li v-for="todo in todos">
+			{{ todo.text }}
+		</li>
+	</ol>
+</div>
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Loops javascript, language=Javascript]
+var app4 = new Vue({
+	el: '#app-4',
+	data: {
+		todos: [
+			{ text: 'Learn JavaScript' },
+			{ text: 'Learn Vue' },
+			{ text: 'Build something awesome' }
+		]
+	}
+})
+\end{lstlisting}
+
+
+%Components
+\subsection{Components}
+In Vue.js kan je gebruik maken van verschillende components (\cite{VUE_COMPONENTS}). Een component is een klein gedeelte van de site, dit kan bijvoorbeeld een footer zijn. Het is de bedoeling dat de programmeur de site opdeelt in kleine componenten. Door dit te doen kunnen de verschillende componenten hergebruikt worden op verschillende pagina’s.
+
+\begin{lstlisting}[caption=Components javascript, language=Javascript]
+// Define a new component called button-counter
+Vue.component('button-counter', {
+	data: function () {
+		return {
+			count: 0
+		}
+	},
+	template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
+})
+\end{lstlisting}
+
+\begin{lstlisting}[caption=Components html, language=HTML]
+<div id="components-demo">
+	<button-counter></button-counter>
+	<button-counter></button-counter>
+	<button-counter></button-counter>
+</div>
+\end{lstlisting}
