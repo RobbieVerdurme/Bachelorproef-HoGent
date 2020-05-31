@@ -1,0 +1,349 @@
+\appendix 
+%\addcontentsline{toc}{chapter}{Code PWA}
+\chapter{Code PWA}
+De volledige code van de menu applicatie PWA is beschikbaar op https://github.com/RobbieVerdurme/MenuApp\_PWA.
+
+\section{index.vue}
+\begin{lstlisting}[caption=index.vue, language=Javascript]
+<template>
+<picker class="app-content" />
+</template>
+
+<script>
+export default {
+middleware: 'data',
+components: {
+picker: () => import('~/components/molecules/picker')
+}
+}
+</script>
+<style scoped>
+.app-content {
+min-height: 80vh;
+}
+</style>
+\end{lstlisting}
+
+
+\section{picker.vue}
+\begin{lstlisting}[caption=picker.vue, language=Javascript]
+<template>
+<div class="center">
+<!--Selected item-->
+<nuxt-link v-if="selectedMenu.key" :to="{name: 'menu-id-info', params: {id: selectedMenu.key}}">
+<span class="md-display-1">{{ selectedMenu.name }}</span>
+</nuxt-link>
+<span v-else class="md-display-1">{{ selectedMenu.name }}</span>
+<!--generate button-->
+<md-button class=" md-fab md-raised md-primary" @click="generateRandomMenuitem">
+<md-icon>cached</md-icon>
+</md-button>
+</div>
+</template>
+
+<script>
+export default {
+data () {
+return {
+selectedMenu: { name: 'Click on the button to generate a random menu' }
+}
+},
+methods: {
+/**
+* generate a random menu item
+*/
+generateRandomMenuitem () {
+const menulistLength = this.$store.getters.getMenuListLength
+if (!menulistLength) {
+this.selectedMenu = { title: 'The menulist is empty' }
+} else {
+const randomnumber = Math.floor(Math.random() * menulistLength)
+this.selectedMenu = this.$store.getters.getMenuitem(randomnumber)
+}
+}
+}
+}
+</script>
+
+<style scoped>
+.center span {
+text-align: center;
+margin: 0;
+position: absolute;
+top: 40%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+}
+
+.center button {
+margin: 0;
+position: absolute;
+top: 70%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+}
+</style>
+
+\end{lstlisting}
+
+
+\section{getters.js}
+Dit is een bestand van de vuex store.
+\begin{lstlisting}[caption= store getters.js, language= Javascript]
+/**
+* getters
+*/
+export default {
+/** *******************USER********************** */
+/**
+* get loggedin user
+*/
+getLogin: (state) => {
+return state.loggedin
+},
+
+/** *******************MENU********************** */
+/**
+* get selected menu
+*/
+getSelectedMenu: (state) => {
+return state.selectedMenu
+},
+
+/**
+* get menu item on place number
+*/
+getMenuitem: state => (index) => {
+return state.menus[index]
+},
+
+/**
+* get menu item with id
+*/
+getMenuitemWithId: state => (id) => {
+return state.menus.find(m => m.key === id)
+},
+
+/**
+* get the max length of the menulist
+*/
+getMenuListLength: state => state.menus.length,
+
+/**
+* get all menu items
+*/
+getAllMenuItems: state => state.menus,
+
+/**
+* get menus with filter text
+*/
+getAllMenuWithFilter: state => (filtertext) => {
+return state.menus.filter(m => m.name.toLowerCase().includes(filtertext.toLowerCase()) || m.ingredients.find(i => i.name.toLowerCase().includes(filtertext.toLowerCase())))
+}
+}
+
+\end{lstlisting}
+
+\section{state.js}
+Dit is een bestand van de vuex store
+
+\begin{lstlisting}[caption= store state.js ,language=Javascript]
+/**
+* state
+*/
+export default () => ({
+menus: [],
+selectedMenu: {},
+loggedin: false
+})
+
+\end{lstlisting}
+
+% \addcontentsline{toc}{chapter}{Code Native Applicatie}
+\chapter{Code Native Applicatie}
+De volledige code van de menu applicatie native applicatie is beschikbaar op https://github.com/RobbieVerdurme/MenuAppV2
+
+\section{MainActivity}
+\begin{lstlisting}[caption= Mainactivity.kt , language=Kotlin]
+package com.example.menuappv2.ui.activity
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.example.menuappv2.R
+import com.google.firebase.FirebaseApp
+
+class MainActivity : AppCompatActivity() {
+
+override fun onCreate(savedInstanceState: Bundle?) {
+super.onCreate(savedInstanceState)
+FirebaseApp.initializeApp(this)
+setContentView(R.layout.activity_main)
+//Setup the toolbar, we need it throughout the app.
+setSupportActionBar(this.findViewById(R.id.mainActivityToolbar))
+//We need to hide the action bar in the splash screen.
+supportActionBar?.hide()
+}
+}
+\end{lstlisting}
+
+\section{MenuDecideFragment}
+\begin{lstlisting}[caption= MenuDecideFragment.kt , language=Kotlin]
+package com.example.menuappv2.ui.fragment
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.example.menuappv2.R
+import com.example.menuappv2.databinding.FragmentMenuDecideBinding
+import com.example.menuappv2.viewmodel.DecideViewModel
+import com.example.menuappv2.viewmodel.MenuDetailViewModel
+import kotlinx.android.synthetic.main.fragment_menu_decide.*
+import org.koin.androidx.viewmodel.ext.android.sharedViewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
+
+class MenuDecideFragment: Fragment() {
+/**
+* The [DecideViewModel] for this fragment.
+*/
+val viewModel: DecideViewModel by viewModel()
+val detailViewModel: MenuDetailViewModel by sharedViewModel()
+
+override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+val binding = FragmentMenuDecideBinding.inflate(inflater, container, false)
+binding.lifecycleOwner = this
+binding.viewModel = viewModel
+return binding.root
+}
+
+override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+super.onViewCreated(view, savedInstanceState)
+setupFragment()
+}
+
+fun setupFragment() {
+lblMenu.setOnClickListener {
+if(!lblMenu.text.contains("decide")){
+detailViewModel.setMenu(viewModel.getMenu())
+findNavController().navigate(R.id.menuDetailFragment)
+}
+}
+}
+}
+\end{lstlisting}
+
+\section{MenuRepository}
+\begin{lstlisting}[caption= MenuRepository.kt , language=Kotlin]
+package com.example.menuappv2.network
+
+import android.widget.Toast
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import com.example.menuappv2.model.Food
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.ValueEventListener
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
+import java.util.ArrayList
+
+class MenuRepository {
+private var liveFoodList :MutableLiveData<ArrayList<Food>> = MutableLiveData<ArrayList<Food>>(arrayListOf())
+private var foodList = ArrayList<Food>()
+private val firebaseDatabase = Firebase.database
+private val databaseRefrenceData = firebaseDatabase.getReference("FoodList")
+
+init {
+databaseRefrenceData.keepSynced(true)
+
+databaseRefrenceData.addValueEventListener(object : ValueEventListener {
+override fun onCancelled(p0: DatabaseError) {
+println("Failed to read value ${p0.message}")
+}
+
+override fun onDataChange(dataSnapshot: DataSnapshot) {
+foodList.clear()
+for (h in dataSnapshot.child("Food").children){
+val food = h.getValue(Food::class.java)
+food?.setKey(h.key!!)
+foodList.add(food!!)
+}
+liveFoodList.value!!.clear()
+liveFoodList.value!!.addAll(foodList)
+}
+})
+}
+
+fun getFoodList(): LiveData<List<Food>> {
+return liveFoodList as LiveData<List<Food>>
+}
+
+fun remove(food:Food): Boolean{
+databaseRefrenceData.child("Food").child(food.getKey()).removeValue()
+liveFoodList.value!!.remove(food)
+return true
+}
+
+fun save(food : Food): Boolean{
+if(food.getKey().isEmpty()){
+val key = databaseRefrenceData.child("Food").push().key
+if(key != null){
+food.setKey(key)
+databaseRefrenceData.child("Food").push().setValue(food)
+liveFoodList.value!!.add(food)
+return true
+}
+}else{
+databaseRefrenceData.child("Food").child(food.getKey()).setValue(food)
+val index = liveFoodList.value!!.indexOf(food)
+liveFoodList.value!![index] = food
+return true
+}
+return false
+}
+}
+\end{lstlisting}
+
+\section{fragment\_menu\_decide.xml}
+\begin{lstlisting}[caption= fragment\_menu\_decide.xml]
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools">
+<data>
+<variable name="viewModel" type="com.example.menuappv2.viewmodel.DecideViewModel"/>
+</data>
+<androidx.constraintlayout.widget.ConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+android:text="@{viewModel.chosenRandomfoodName}"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:id="@+id/lblMenu"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintBottom_toTopOf="@+id/btnDecide"
+app:layout_constraintHorizontal_bias="0.506"
+app:layout_constraintVertical_bias="0.431"
+android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+android:textSize="30sp"
+android:textAlignment="center"/>
+<Button
+android:text="@string/decide"
+android:onClick="@{() -> viewModel.RandomFood()}"
+android:layout_width="0dp"
+android:layout_height="95dp"
+android:id="@+id/btnDecide"
+app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+\end{lstlisting}
