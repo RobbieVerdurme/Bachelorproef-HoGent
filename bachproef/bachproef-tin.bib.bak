@@ -283,4 +283,10 @@
   url    = {https://www.simicart.com/blog/pwa-app-stores/#Apple App Store},
 }
 
+@Online{VUE_POPULARITY,
+  author = {Gitstar Ranking},
+  title  = {Repositories Ranking},
+  url    = {https://gitstar-ranking.com/repositories},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

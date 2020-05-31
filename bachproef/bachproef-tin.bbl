@@ -278,6 +278,37 @@
       \verb https://developers.google.com/web/tools/workbox/modules/workbox-strategies
       \endverb
     \endentry
+    \entry{ICONIC}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b611bdd4631318d340e75dffcfd1729e}{%
+           family={Iconic},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b611bdd4631318d340e75dffcfd1729e}
+      \strng{fullhash}{b611bdd4631318d340e75dffcfd1729e}
+      \strng{bibnamehash}{b611bdd4631318d340e75dffcfd1729e}
+      \strng{authorbibnamehash}{b611bdd4631318d340e75dffcfd1729e}
+      \strng{authornamehash}{b611bdd4631318d340e75dffcfd1729e}
+      \strng{authorfullhash}{b611bdd4631318d340e75dffcfd1729e}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{4}
+      \field{title}{Versioning}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ionicframework.com/docs/reference/versioning
+      \endverb
+      \verb{url}
+      \verb https://ionicframework.com/docs/reference/versioning
+      \endverb
+    \endentry
     \entry{NULL_SAFETY}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=b6a77f3f5bead76a495a90d63703e1f9}{%
@@ -704,6 +735,35 @@
       \verb https://www.mindinventory.com/blog/best-progressive-web-apps-frameworks/
       \endverb
     \endentry
+    \entry{VUE_POPULARITY}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0b081f0e00931982c1dd690e6a7b5cea}{%
+           family={Ranking},
+           familyi={R\bibinitperiod},
+           given={Gitstar},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b081f0e00931982c1dd690e6a7b5cea}
+      \strng{fullhash}{0b081f0e00931982c1dd690e6a7b5cea}
+      \strng{bibnamehash}{0b081f0e00931982c1dd690e6a7b5cea}
+      \strng{authorbibnamehash}{0b081f0e00931982c1dd690e6a7b5cea}
+      \strng{authornamehash}{0b081f0e00931982c1dd690e6a7b5cea}
+      \strng{authorfullhash}{0b081f0e00931982c1dd690e6a7b5cea}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Repositories Ranking}
+      \verb{urlraw}
+      \verb https://gitstar-ranking.com/repositories
+      \endverb
+      \verb{url}
+      \verb https://gitstar-ranking.com/repositories
+      \endverb
+    \endentry
     \entry{PWA_EXTRA_FEATURES_2}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=d9a57c2231896d20c85344717d0a42ed}{%
@@ -736,6 +796,37 @@
       \endverb
       \verb{url}
       \verb https://www.coredna.com/blogs/progressive-web-app
+      \endverb
+    \endentry
+    \entry{POLYMER}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a4b71bf416854bce175ba01a067e78cc}{%
+           family={Shadoweb},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b71bf416854bce175ba01a067e78cc}
+      \strng{fullhash}{a4b71bf416854bce175ba01a067e78cc}
+      \strng{bibnamehash}{a4b71bf416854bce175ba01a067e78cc}
+      \strng{authorbibnamehash}{a4b71bf416854bce175ba01a067e78cc}
+      \strng{authornamehash}{a4b71bf416854bce175ba01a067e78cc}
+      \strng{authorfullhash}{a4b71bf416854bce175ba01a067e78cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{9}
+      \field{title}{Is Polymer SEO friendly}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/19077665/is-polymer-seo-friendly
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/19077665/is-polymer-seo-friendly
       \endverb
     \endentry
     \entry{APPSTORE}{online}{}

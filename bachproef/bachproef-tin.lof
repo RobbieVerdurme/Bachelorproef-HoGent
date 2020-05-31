@@ -5,23 +5,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Voorstelling stale-while-revalidate strategie}}{22}{figure.2.1}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Voorstelling stale-while-revalidate strategie}}{20}{figure.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Voorstelling offline first strategie}}{22}{figure.2.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Voorstelling offline first strategie}}{20}{figure.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Voorstelling online first strategie}}{22}{figure.2.3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Voorstelling online first strategie}}{20}{figure.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Voorstelling network only strategie}}{23}{figure.2.4}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Voorstelling network only strategie}}{21}{figure.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Voorstelling cache only strategie}}{23}{figure.2.5}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Voorbeeld mappen structuur nuxt}}{39}{figure.5.1}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Voorstelling cache only strategie}}{21}{figure.2.5}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -29,11 +21,59 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Voorbeeld van boxplot die de snelheid vergelijkt}}{51}{figure.A.1}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Voorbeeld mappen structuur nuxt}}{37}{figure.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Voorbeeld van een tabel die de snelheid vergelijkt}}{51}{figure.A.2}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Voorbeeld van historgram die de benodigde ruimte vergelijkt}}{51}{figure.A.3}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces grafiek detail pagina test}}{44}{figure.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Voorbeel van tabel die de benodigde ruimte vergelijkt}}{51}{figure.A.4}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces tabel vergelijking van de performantie menu detail test}}{45}{figure.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces grafiek detail pagina test PWA}}{45}{figure.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces grafiek menu filter test}}{46}{figure.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces tabel vergelijking van de performantie menu detail test}}{46}{figure.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces grafiek benodigde ruimte geen cache}}{47}{figure.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces grafiek benodigde ruimte met cache}}{48}{figure.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces grafiek benodigde ruimte PWA}}{49}{figure.6.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces grafiek benodigde ruimte native applicatie}}{50}{figure.6.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces homescherm native applicatie}}{51}{figure.6.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces menu detail pagina native applicatie}}{51}{figure.6.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.12}{\ignorespaces menu voorbereiding pagina native applicatie}}{52}{figure.6.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.13}{\ignorespaces login pagina native applicatie}}{52}{figure.6.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.14}{\ignorespaces home pagina PWA}}{53}{figure.6.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.15}{\ignorespaces filter pagina PWA}}{53}{figure.6.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.16}{\ignorespaces menu ingredienten pagina PWA}}{54}{figure.6.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.17}{\ignorespaces menu toevoegen ingredienten pagina PWA}}{54}{figure.6.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.18}{\ignorespaces login pagina PWA}}{55}{figure.6.18}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Voorbeeld van boxplot die de snelheid vergelijkt}}{71}{figure.C.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Voorbeeld van een tabel die de snelheid vergelijkt}}{71}{figure.C.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Voorbeeld van historgram die de benodigde ruimte vergelijkt}}{71}{figure.C.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Voorbeel van tabel die de benodigde ruimte vergelijkt}}{71}{figure.C.4}
 \contentsfinish 
