@@ -13,5 +13,23 @@
 % niet duidelijk zijn?
 % Heeft het onderzoek geleid tot nieuwe vragen die uitnodigen tot verder 
 %onderzoek?
+\section{Performantie}
+De verwachting zoals omschreven in het voorstel was dat de PWA sneller zou zijn omdat hij minder ruimte inneemd op het apparaat. Dit werd getest door twee dezelfde applicaties enkele functionaliteiten uit te laten voeren op de beschikbare apparaten. Hierdoor kon er een zo accuraat mogelijke test uitgevoerd worden tussen de PWA en de native applicatie.
 
+Uit dit onderzoek is echter gebleken dat de PWA trager is dan de native applicatie, dit omdat de PWA bij elke pagina de styling en data moet ophalen. Merkwaardig is wel dat eens de strategie van de PWA aangepast wordt van stale-while-revalidate naar cache-first, er een grotere spreiding is tussen de resultaten. Hieruit volgt dat de offline strategie iets trager is als er een data aanvraag gebeurt. Hiermee werd geen rekening gehouden tijdens het opstellen van het onderzoeksvoorstel.
 
+\section{Benodigde ruimte}
+Uit het voorstel was gebleken dat een PWA 90.67\% kleiner zou zijn dan een native applicatie. Om dit te testen is er een native applicatie en PWA gemaakt, aangezien deze twee dezelfde applicaties zijn kan er een accurate vergelijking gemaakt worden tussen de beschikbare ruimtes. 
+
+Uit dit onderzoek is gebleken dat een PWA minder ruimte inneemt dan een klassieke native applicatie, dit omdat de styling van de native applicatie al mee wordt gegeven tijdens het installeren. Bij een PWA wordt de styling pas opgehaald eens de applicatie voor de eerste keer wordt geopend, dit wordt dan gecached samen met de data. Om deze reden wordt een PWA 35.24\% groter eens de styling en data gecached is. De PWA is dan wel nog altijd 94.19\% of 6.74 Megabyte kleiner dan de native applicatie.
+
+\section{Gebruikers ervaring}
+De proefpersonen die deelnamen aan dit onderzoek hebben verschillende niveaus van technische kennis, dit omdat zo een grote doelgroep kan bereikt worden met de applicatie.
+
+De bevindingen van de proefpersonen waren dat de PWA er goed uitziet en heel navigeerbaar is. Tijdens het opzoeken van een gerecht werd bij de PWA de filter niet meteen opgemerkt waardoor dit iets langer duurde bij de meeste proefpersonen. De navigatie naar de registratiepagina vonden enkele personen niet duidelijk aangegeven.
+
+De bevindingen van de proefpersonen in de native applicatie zijn dat er weinig kleur gebruikt werd waardoor het meer leek op een zelfgeschreven applicatie. Enkele proefpersonen gaven ook aan dat de homepagina er mooier uitziet bij de PWA omwille van de achtergrond en de ander layout van de genereer menu knop. Voor het opzoeken van een menu werd de filter hier veel sneller opgemerkt in vergelijking met de PWA, dit heeft te maken met het feit dat de filter bij de native applicatie iets groter is en verdwijnt in de achtergrond. Op de detailpagina waren er een paar opmerkingen over de layout van de ingrediënten, dit bleek niet overzichtelijk genoeg te zijn. Verder waren er geen problemen om aan te melden en een menu toe te voegen.
+
+\section{PWA}
+In dit onderzoek is onderzocht of de PWA de native applicatie zou kunnen vervangen. Uit de resultaten is gebleken dat de PWA even gebruiksvriendelijk is als de native applicatie maar dat deze tot 94.19\% of 6.74 Megabyte kleiner is. Helaas is dit niet genoeg om de native applicatie te vervangen. De PWA heeft nog geen toegang tot meer specifieke functionaliteiten zoals de bluetooth module, geofencing en communicatie met andere applicaties, dit limiteert de PWA in functionaliteit ten opzichte van de native applicatie. Ten opzichte van de gebruiksvriendelijkheid en terugvindbaarheid heeft de native applicatie een groot voordeel vanwege de store waarin alle applicaties kunnen teruggevonden worden, hiervoor is een oplossing gevonden voor de PWA maar dit heeft nog geen goede ondersteuning.
+Eens deze functionaliteiten toegevoegd zijn en de app store en play store een goede ondersteuning bieden voor een PWA zal dit een waardig alternatief zijn voor de native app.
