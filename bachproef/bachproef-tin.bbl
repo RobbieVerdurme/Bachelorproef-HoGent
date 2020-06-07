@@ -645,37 +645,6 @@
       \verb https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0
       \endverb
     \endentry
-    \entry{Pollefliet2011}{book}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=7ca343ebcc6de1727ac22a1a847c21e5}{%
-           family={Pollefliet},
-           familyi={P\bibinitperiod},
-           given={Leen},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Gent}%
-      }
-      \list{publisher}{1}{%
-        {Academia Press}%
-      }
-      \strng{namehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{fullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{bibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorbibnamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authornamehash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \strng{authorfullhash}{7ca343ebcc6de1727ac22a1a847c21e5}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Schrijven van verslag tot eindwerk: do's en don'ts}
-      \field{year}{2011}
-    \endentry
     \entry{KOTLIN_VS_JAVA}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=2b656ce8660318736cb38cbb58ed249d}{%
@@ -952,6 +921,32 @@
       \field{title}{What is in a Web View? An Analysis of Progressive Web App Features When the Means of Web Access is not a Web Browser}
       \field{year}{2018}
       \field{dateera}{ce}
+    \endentry
+    \entry{PWA_DEFINITIE}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=44e8f062c64a768917593b164096f07d}{%
+           family={Strato},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{44e8f062c64a768917593b164096f07d}
+      \strng{fullhash}{44e8f062c64a768917593b164096f07d}
+      \strng{bibnamehash}{44e8f062c64a768917593b164096f07d}
+      \strng{authorbibnamehash}{44e8f062c64a768917593b164096f07d}
+      \strng{authornamehash}{44e8f062c64a768917593b164096f07d}
+      \strng{authorfullhash}{44e8f062c64a768917593b164096f07d}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Progressive web apps: wat hebben progressive apps in petto?}
+      \verb{urlraw}
+      \verb https://www.strato.nl/handboek/progressive-web-apps-wat-zijn-de-voordelen/#:~:text=Definitie%20progressive%20web%20apps%2C%20deel%202%3A%20PWA%20vs.&text=Een%20PWA%20is%20een%20responsieve,deze%20in%20de%20applicatie%20opnemen.
+      \endverb
+      \verb{url}
+      \verb https://www.strato.nl/handboek/progressive-web-apps-wat-zijn-de-voordelen/#:~:text=Definitie%20progressive%20web%20apps%2C%20deel%202%3A%20PWA%20vs.&text=Een%20PWA%20is%20een%20responsieve,deze%20in%20de%20applicatie%20opnemen.
+      \endverb
     \endentry
     \entry{DIFF_NATIVEAPP_PWA}{online}{}
       \name{author}{1}{}{%
@@ -1265,7 +1260,7 @@
       \verb https://nl.wikipedia.org/wiki/Kotlin_(programmeertaal)
       \endverb
     \endentry
-    \entry{DEFINITION_PWA}{online}{}
+    \entry{NATIVEAPP_DEFINITIE}{online}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
@@ -1280,6 +1275,37 @@
       \field{sortinit}{W}
       \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{month}{2}
+      \field{title}{Mobiele app}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://nl.wikipedia.org/wiki/Mobiele_app
+      \endverb
+      \verb{url}
+      \verb https://nl.wikipedia.org/wiki/Mobiele_app
+      \endverb
+    \endentry
+    \entry{DEFINITION_PWA}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}

@@ -289,4 +289,26 @@
   url    = {https://gitstar-ranking.com/repositories},
 }
 
+@Online{ICONIC,
+  author = {Iconic},
+  title  = {Versioning},
+  year   = {2020},
+  date   = {2020-04-02},
+  url    = {https://ionicframework.com/docs/reference/versioning},
+}
+
+@Online{POLYMER,
+  author = {Shadoweb},
+  title  = {Is Polymer SEO friendly},
+  year   = {2013},
+  date   = {2013-09-29},
+  url    = {https://stackoverflow.com/questions/19077665/is-polymer-seo-friendly},
+}
+
+@Online{PWA_DEFINITIE,
+  author = {Strato},
+  title  = {Progressive web apps: wat hebben progressive apps in petto?},
+  url    = {https://www.strato.nl/handboek/progressive-web-apps-wat-zijn-de-voordelen/#:~:text=Definitie%20progressive%20web%20apps%2C%20deel%202%3A%20PWA%20vs.&text=Een%20PWA%20is%20een%20responsieve,deze%20in%20de%20applicatie%20opnemen.},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

@@ -3,199 +3,205 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Inleiding}{17}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Probleemstelling}{17}{section.1.1}
+\contentsline {section}{\numberline {1.1}Digipolis}{17}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Onderzoeksvraag}{18}{section.1.2}
+\contentsline {section}{\numberline {1.2}Native applicatie}{17}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Onderzoeksdoelstelling}{18}{section.1.3}
+\contentsline {section}{\numberline {1.3}Progressive web applicatie}{17}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Opzet van deze bachelorproef}{18}{section.1.4}
+\contentsline {section}{\numberline {1.4}Probleemstelling}{18}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Stand van zaken}{19}{chapter.2}
+\contentsline {section}{\numberline {1.5}Onderzoeksvraag}{18}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Progressive web applicatie}{19}{section.2.1}
+\contentsline {section}{\numberline {1.6}Onderzoeksdoelstelling}{18}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Service worker}{19}{subsection.2.1.1}
+\contentsline {section}{\numberline {1.7}Opzet van deze bachelorproef}{19}{section.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stale-While-Revalidate}{19}{section*.7}
+\contentsline {chapter}{\numberline {2}Stand van zaken}{21}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Offline first}{20}{section*.8}
+\contentsline {section}{\numberline {2.1}Progressive web applicatie}{21}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Online first}{20}{section*.9}
+\contentsline {subsection}{\numberline {2.1.1}Service worker}{21}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Network Only}{21}{section*.10}
+\contentsline {subsubsection}{Stale-While-Revalidate}{21}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Cache Only}{21}{section*.11}
+\contentsline {subsubsection}{Offline first}{22}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Manifest}{21}{subsection.2.1.2}
+\contentsline {subsubsection}{Online first}{22}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Auteur}{21}{section*.12}
+\contentsline {subsubsection}{Network Only}{23}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Icoon}{21}{section*.13}
+\contentsline {subsubsection}{Cache Only}{23}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Versie}{22}{section*.14}
+\contentsline {subsection}{\numberline {2.1.2}Manifest}{23}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Frameworks}{22}{section.2.2}
+\contentsline {subsubsection}{Auteur}{23}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Wat is een framework ?}{22}{subsection.2.2.1}
+\contentsline {subsubsection}{Icoon}{23}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Requirements}{22}{subsection.2.2.2}
+\contentsline {subsubsection}{Versie}{24}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Gekozen frameworks}{22}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.2}Frameworks}{24}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressive web applicatie}{22}{section*.15}
+\contentsline {subsection}{\numberline {2.2.1}Wat is een framework ?}{24}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Angular 2+}{23}{section*.16}
+\contentsline {subsection}{\numberline {2.2.2}Requirements}{24}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{React}{23}{section*.17}
+\contentsline {subsection}{\numberline {2.2.3}Gekozen frameworks}{24}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ionic}{23}{section*.18}
+\contentsline {subsubsection}{Progressive web applicatie}{24}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Polymer}{23}{section*.19}
+\contentsline {paragraph}{Angular 2+}{25}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Native applicatie}{23}{section*.20}
+\contentsline {paragraph}{React}{25}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Java}{23}{section*.21}
+\contentsline {paragraph}{Ionic}{25}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{23}{section*.22}
+\contentsline {paragraph}{Polymer}{25}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Browserondersteuning}{24}{subsection.2.2.4}
+\contentsline {subsubsection}{Native applicatie}{25}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Chrome}{24}{section*.23}
+\contentsline {paragraph}{Java}{25}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Firefox}{24}{section*.24}
+\contentsline {paragraph}{Xamarin}{25}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Opera}{24}{section*.25}
+\contentsline {subsection}{\numberline {2.2.4}Browserondersteuning}{26}{subsection.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Safari}{24}{section*.26}
+\contentsline {subsubsection}{Chrome}{26}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Store}{25}{subsection.2.2.5}
+\contentsline {subsubsection}{Firefox}{26}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Play Store}{25}{section*.27}
+\contentsline {subsubsection}{Opera}{26}{section*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{App Store}{25}{section*.28}
+\contentsline {subsubsection}{Safari}{26}{section*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Kotlin}{27}{chapter.3}
+\contentsline {subsection}{\numberline {2.2.5}Store}{27}{subsection.2.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Basisprincipes}{27}{section.3.1}
+\contentsline {subsubsection}{Play Store}{27}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Null safety}{27}{subsection.3.1.1}
+\contentsline {subsubsection}{App Store}{27}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}LiveData}{28}{subsection.3.1.2}
+\contentsline {chapter}{\numberline {3}Kotlin}{29}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}Databinding}{28}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.1}Basisprincipes}{29}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}Coroutines}{29}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.1}Null safety}{29}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.5}Koin}{29}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.2}LiveData}{30}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Vue.js}{31}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.3}Databinding}{30}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Basisprincipes}{31}{section.4.1}
+\contentsline {subsection}{\numberline {3.1.4}Coroutines}{31}{subsection.3.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Declarative Rendering}{31}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {3.1.5}Koin}{31}{subsection.3.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Conditionals}{32}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {4}Vue.js}{33}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Loops}{32}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.1}Basisprincipes}{33}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.4}Components}{33}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.1}Declarative Rendering}{33}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Nuxt.js}{35}{chapter.5}
+\contentsline {subsection}{\numberline {4.1.2}Conditionals}{34}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Basisprincipes}{35}{section.5.1}
+\contentsline {subsection}{\numberline {4.1.3}Loops}{34}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Server side rendering}{35}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {4.1.4}Components}{35}{subsection.4.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Pre rendering}{35}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {5}Nuxt.js}{37}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Configuration}{36}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.1}Basisprincipes}{37}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.4}Directory Structure}{37}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.1}Server side rendering}{37}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.5}Routing}{37}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.2}Pre rendering}{37}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.6}Vuex Store}{39}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.3}Configuration}{38}{subsection.5.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.7}Modules}{40}{subsection.5.1.7}
+\contentsline {subsection}{\numberline {5.1.4}Directory Structure}{39}{subsection.5.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{@nuxt/http}{40}{section*.29}
+\contentsline {subsection}{\numberline {5.1.5}Routing}{39}{subsection.5.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{@nuxt/axios}{40}{section*.30}
+\contentsline {subsection}{\numberline {5.1.6}Vuex Store}{41}{subsection.5.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{@nuxt/pwa}{40}{section*.31}
+\contentsline {subsection}{\numberline {5.1.7}Modules}{42}{subsection.5.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{@nuxt/auth}{41}{section*.32}
+\contentsline {subsubsection}{@nuxt/http}{42}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.8}Plugins}{41}{subsection.5.1.8}
+\contentsline {subsubsection}{@nuxt/axios}{42}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Methodologie}{43}{chapter.6}
+\contentsline {subsubsection}{@nuxt/pwa}{42}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Performantie vergelijking}{43}{section.6.1}
+\contentsline {subsubsection}{@nuxt/auth}{43}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gebruikte software}{43}{section*.33}
+\contentsline {subsection}{\numberline {5.1.8}Plugins}{43}{subsection.5.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Progressive web applicatie}{43}{section*.34}
+\contentsline {chapter}{\numberline {6}Methodologie}{45}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Native applicatie}{43}{section*.35}
+\contentsline {section}{\numberline {6.1}Performantie vergelijking}{45}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Apparaten}{43}{section*.36}
+\contentsline {subsubsection}{Gebruikte software}{45}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Progressive web applicatie}{43}{section*.37}
+\contentsline {paragraph}{Progressive web applicatie}{45}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Native applicatie}{44}{section*.38}
+\contentsline {paragraph}{Native applicatie}{45}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vergelijking}{44}{section*.39}
+\contentsline {subsubsection}{Apparaten}{45}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Benodigde ruimte}{46}{section.6.2}
+\contentsline {paragraph}{Progressive web applicatie}{45}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Gebruikerservaring}{50}{section.6.3}
+\contentsline {paragraph}{Native applicatie}{46}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Native applicatie}{50}{section*.40}
+\contentsline {subsubsection}{Vergelijking}{46}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressive web applicatie}{52}{section*.41}
+\contentsline {section}{\numberline {6.2}Benodigde ruimte}{48}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Conclusie}{57}{chapter.7}
+\contentsline {section}{\numberline {6.3}Gebruikerservaring}{52}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Performantie}{57}{section.7.1}
+\contentsline {subsubsection}{Native applicatie}{53}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Benodigde ruimte}{57}{section.7.2}
+\contentsline {subsubsection}{Progressive web applicatie}{55}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Gebruikers ervaring}{58}{section.7.3}
+\contentsline {chapter}{\numberline {7}Conclusie}{59}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}PWA}{58}{section.7.4}
+\contentsline {section}{\numberline {7.1}Performantie}{59}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Code PWA}{59}{appendix.A}
+\contentsline {section}{\numberline {7.2}Benodigde ruimte}{59}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}index.vue}{59}{section.A.1}
+\contentsline {section}{\numberline {7.3}Gebruikers ervaring}{60}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}picker.vue}{59}{section.A.2}
+\contentsline {section}{\numberline {7.4}PWA}{60}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}getters.js}{61}{section.A.3}
+\contentsline {chapter}{\numberline {A}Code PWA}{61}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}state.js}{62}{section.A.4}
+\contentsline {section}{\numberline {A.1}index.vue}{61}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Code Native Applicatie}{63}{appendix.B}
+\contentsline {section}{\numberline {A.2}picker.vue}{61}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}MainActivity}{63}{section.B.1}
+\contentsline {section}{\numberline {A.3}getters.js}{63}{section.A.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}MenuDecideFragment}{64}{section.B.2}
+\contentsline {section}{\numberline {A.4}state.js}{64}{section.A.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}MenuRepository}{64}{section.B.3}
+\contentsline {chapter}{\numberline {B}Code Native Applicatie}{65}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}fragment\_menu\_decide.xml}{66}{section.B.4}
+\contentsline {section}{\numberline {B.1}MainActivity}{65}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Onderzoeksvoorstel}{69}{appendix.C}
+\contentsline {section}{\numberline {B.2}MenuDecideFragment}{66}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Introductie}{69}{section.C.1}
+\contentsline {section}{\numberline {B.3}MenuRepository}{66}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Stand van zaken}{70}{section.C.2}
+\contentsline {section}{\numberline {B.4}fragment\_menu\_decide.xml}{68}{section.B.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}Methodologie}{70}{section.C.3}
+\contentsline {chapter}{\numberline {C}Onderzoeksvoorstel}{71}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Verwachte resultaten}{70}{section.C.4}
+\contentsline {section}{\numberline {C.1}Introductie}{71}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.5}Verwachte conclusies}{72}{section.C.5}
+\contentsline {section}{\numberline {C.2}Stand van zaken}{72}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{73}{appendix*.42}
+\contentsline {section}{\numberline {C.3}Methodologie}{72}{section.C.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.4}Verwachte resultaten}{72}{section.C.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.5}Verwachte conclusies}{74}{section.C.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{75}{appendix*.42}
 \contentsfinish 

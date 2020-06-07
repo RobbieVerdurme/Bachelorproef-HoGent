@@ -37,7 +37,8 @@ Om de applicaties met elkaar te vergelijken werden er een aantal functionaliteit
 	\caption{grafiek detail pagina test}
 \end{figure}
 
-\begin{figure}[H]
+\begin{table}[h!]
+	\centering
 	\begin{tabularx}{\textwidth }{|X|X|X|X|X|X|}
 		\hline
 		Type        & Min.  & 1ste Qu. & Gemiddelde & 3de Qu. & Max.  \\
@@ -49,8 +50,9 @@ Om de applicaties met elkaar te vergelijken werden er een aantal functionaliteit
 		Native App  & 2.596 & 2.826    & 2.846      & 2.901   & 2.952 \\
 		\hline
 	\end{tabularx}
-	\caption{tabel vergelijking van de performantie menu detail test}
-\end{figure}
+	\label{table:1}
+	\caption{Vergelijking van de performantie menu detail test}
+\end{table}
 
 Bovenstaande grafiek duidt aan dat een PWA er gemiddeld 3.38 seconden over doet om een menu op te halen en weer te geven. Dit is beduidend veel trager dan de native applicatie, vanwege de strategie die de PWA heeft. Tijdens deze testen moest de PWA voor elke pagina de styling ophalen samen met de data, hierdoor kan de PWA de laatste versie weergeven van de site. De native applicatie heeft een minder grote spreiding dan de PWA omdat deze niet afhankelijk is van de netwerkverbinding om de data weer te geven, aangezien de styling reeds gedownload is.
 
@@ -70,7 +72,8 @@ Eens de strategie veranderde naar cache-first deed de PWA er ongeveer even lang 
 	\caption{grafiek menu filter test}
 \end{figure}
 
-\begin{figure}[H]
+\begin{table}[h!]
+	\centering
 	\begin{tabularx}{\textwidth }{|X|X|X|X|X|X|}
 	\hline
 		Type        & Min.  & 1ste Qu. & Gemiddelde & 3de Qu. & Max.  \\
@@ -82,8 +85,9 @@ Eens de strategie veranderde naar cache-first deed de PWA er ongeveer even lang 
 		Native App  & 2.118 & 2.152    & 2.360      & 2.474   & 2.950 \\
 	\hline
 	\end{tabularx}
-	\caption{tabel vergelijking van de performantie menu detail test}
-\end{figure}
+	\label{table:2}
+	\caption{Vergelijking van de performantie menu detail test}
+\end{table}
 
 Bovenstaande grafiek indiceert dat de PWA eveneens trager is dan de native applicatie. Opvallend is dat de offline strategie van de PWA een grotere spreiding heeft van resultaten dan de online strategie. Dit is merkwaardig aangezien de offline PWA eerst naar de cache kijkt vooraleer dat er een online data bevraging plaatsvindt.
 
@@ -95,6 +99,21 @@ De benodigde ruimte werd opgevraagd direct na de installatie en na het openen va
 	\includegraphics[width=200px]{Grafiek/Rplot_BenodigdeRuimte_PWANativeApp_NoCached}\centering
 	\caption{grafiek benodigde ruimte geen cache}
 \end{figure}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		Type              & Benodigde ruimte \\
+		\hline
+		PWA               & 0.307619188      \\
+		\hline
+		Native applicatie & 6.91             \\
+		\hline
+	\end{tabular}
+	\label{table:3}
+	\caption{Benodigde ruimte applicatie geen cache}
+\end{table}
 In bovenstaande grafiek ziet u een duidelijk verschil tussen de progressive web app en de native applicatie. De native applicatie neemt 95.55\% meer plaats in ten opzichte van de progressive web applicatie. Een native applicatie heeft het nadeel dat de styling al wordt meegegeven tijdens de installatie, bij een PWA is dit niet zo.
 
 % GRAFIEK BENODIGDE RUIMTE CACHED
@@ -102,6 +121,21 @@ In bovenstaande grafiek ziet u een duidelijk verschil tussen de progressive web 
 	\includegraphics[width=200px]{Grafiek/Rplot_BenodigdeRuimte_PWANativeApp_Cached}\centering
 	\caption{grafiek benodigde ruimte met cache}
 \end{figure}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		Type              & Benodigde ruimte \\
+		\hline
+		PWA               & 0416015625       \\
+		\hline
+		Native applicatie & 7.16             \\
+		\hline
+	\end{tabular}
+	\label{table:4}
+	\caption{Benodigde ruimte applicatie met cache}
+\end{table}
 In bovenstaande grafiek is het duidelijk dat een PWA veel minder ruimte in neemt dan een native applicatie, zelfs na het ophalen van alle data.
 
 % GRAFIEK BENODIGDE RUIMTE PWA
@@ -109,6 +143,22 @@ In bovenstaande grafiek is het duidelijk dat een PWA veel minder ruimte in neemt
 	\includegraphics[width=200px]{Grafiek/Rplot_BenodigdeRuimte_PWA}\centering
 	\caption{grafiek benodigde ruimte PWA}
 \end{figure}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		Data              & Benodigde ruimte \\
+		\hline
+		Niet cached       & 0.307617188       \\
+		\hline
+		Cached            & 0.416015625       \\
+		\hline
+	\end{tabular}
+	\label{table:5}
+	\caption{Benodigde ruimte PWA}
+\end{table}
+
 De PWA neemt wel 35.24\% meer plaats in nadat de data gecached is. Dit omdat de PWA pas de styling en data opvraagt eens de applicatie voor een eerste keer opgestart is. Nadien wordt de data opnieuw opgehaald eens de pagina opnieuw geladen wordt door de gebruiker of na het lanceren van de applicatie.
 
 %GRAFIEK BENODIGDE RUIMTE NATIVE APP
@@ -116,6 +166,22 @@ De PWA neemt wel 35.24\% meer plaats in nadat de data gecached is. Dit omdat de 
 	\includegraphics[width=200px]{Grafiek/Rplot_BenodigdeRuimte_NativeApp}\centering
 	\caption{grafiek benodigde ruimte native applicatie}
 \end{figure}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		Data             & Benodigde ruimte \\
+		\hline
+		Niet cached       & 6.91             \\
+		\hline
+		Cached            & 7.16             \\
+		\hline
+	\end{tabular}
+	\label{table:6}
+	\caption{Benodigde ruimte native applicatie}
+\end{table}
+
 De native applicatie cached enkel de data die deze nodig heeft omdat de styling van de applicatie meegegeven wordt tijdens de installatie. Om die reden is er maar een verschil van 3.62\% in bestandsgrootte.
 
 \section{Gebruikerservaring}

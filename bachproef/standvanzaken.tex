@@ -17,7 +17,7 @@
 In deze sectie wordt er beschreven wat een progressive web applicatie allemaal extra nodig heeft naast een ontwikkelde website(\cite{PWA_EXTRA_FEATURES})(\cite{PWA_EXTRA_FEATURES_2}).
 
 \subsection{Service worker}
-Het eerste item dat een progressive web applicatie nodig heeft is een service worker. Deze zorgt ervoor dat de website alle aanvragen voor externe data kan opslaan, beter bekend als data caching. De aanvragen worden doorgestuurd naar de service worker die deze dan op zijn beurt haalt van de externe databron online of de lokale gecachte data. De service worker maakt deze beslissing op basis van de ingestelde strategie. Er zijn momenteel vijf strategieën die gebruikt kunnen worden met workbox (\cite{WORKBOX_STRATEGIES}). Deze strategieën zijn stale white revalidate, offline first, online first, network only en cache only.
+Wat een progressive web applicatie nodig heeft is een service worker. Deze zorgt ervoor dat de website alle aanvragen voor externe data kan opslaan, beter bekend als data caching. De aanvragen worden doorgestuurd naar de service worker die deze dan op zijn beurt haalt van de externe databron online of de lokale gecachte data. De service worker maakt deze beslissing op basis van de ingestelde strategie. Er zijn momenteel vijf strategieën die gebruikt kunnen worden met workbox (\cite{WORKBOX_STRATEGIES}). Deze strategieën zijn stale while revalidate, offline first, online first, network only en cache only.
 
 \subsubsection{Stale-While-Revalidate}
 Deze strategie zorgt ervoor dat de gebruiker zo snel mogelijk een antwoord heeft op de aangevraagde data. Dit gebeurd doordat de service worker eerst de gecachte data zal weergeven als deze beschikbaar is. Indien er geen gecachte data is zal de service worker de aanvraag via het netwerk doen. Met het antwoord van het netwerk zal de cache dan weer geüpdatet worden met de laatste versie van de data.
@@ -60,7 +60,7 @@ Cache only werkt alleen maar met de gecachte data. Deze haalt geen externe data 
 \end{figure}
 
 \subsection{Manifest}
-Het tweede item dat een progressive web applicatie nodig heeft is een manifest \cite{MANIFEST}. Dit is een bestand met alle informatie die nodig is om de applicatie draaiende te houden eens deze geïnstalleerd is op het apparaat. Deze informatie bevat maar is niet gelimiteerd tot de auteur, het icoon en de versie.
+Het tweede item dat een progressive web applicatie nodig heeft is een manifest (\cite{MANIFEST}). Dit is een bestand met alle informatie die nodig is om de applicatie draaiende te houden eens deze geïnstalleerd is op het apparaat. Deze informatie bevat maar is niet gelimiteerd tot de auteur, het icoon en de versie.
 
 \subsubsection{Auteur}
 De naam van de auteur van de applicatie. Deze kan ook de naam van het bedrijf zijn.
@@ -69,7 +69,7 @@ De naam van de auteur van de applicatie. Deze kan ook de naam van het bedrijf zi
 Het icoon waarmee de applicatie wordt weergegeven bij de applicaties op het apparaat. Er kunnen verschillende iconen meegegeven worden. Deze kunnen dienen voor de verschillende besturingssystemen, zodat er bijvoorbeeld een uniek icoon is voor apple en android. De iconen kunnen ook een verschillende grootte hebben, dit zorgt ervoor dat het icoon goed zichtbaar is op elk scherm van de verscheidene apparaten.
 
 \subsubsection{Versie}
-De versie van applicatie kan ook ingesteld worden door de manifest file. Zo weet de gebruiker welke versie van de applicatie er geïnstalleerd is op zijn apparaat.
+De versie van applicatie wordt ingesteld worden door de manifest file. Zo weet de gebruiker welke versie van de applicatie er geïnstalleerd is op zijn apparaat.
 
 \section{Frameworks}
 \subsection{Wat is een framework ?}
