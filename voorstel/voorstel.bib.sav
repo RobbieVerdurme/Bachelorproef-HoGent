@@ -1,0 +1,32 @@
+% Encoding: UTF-8
+
+@Article{PWA_vs_Cross-Platform,
+  author = {Tim A. Marjchrzak},
+  title  = {Progressive Web Apps: the Definite Approach to Cross-Platform Development?},
+  year   = {2018},
+  date   = {2018-01-06},
+}
+
+@Online{Tinder_PWA,
+  author = {Addy Osmani},
+  title  = {A Tinder Progressive Web App Performance Case Study},
+  year   = {2017},
+  date   = {2017-12-24},
+  url    = {https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0},
+}
+
+@Online{Why_PWA_over_NativeApp,
+  author = {Experius},
+  title  = {Progressive Web Apps: de toekomst voor webshops is hier},
+  year   = {2019},
+  url    = {https://www.experius.nl/pwa},
+}
+
+@Article{Webview_PWA,
+  author = {Thomas Steiner},
+  title  = {What is in a Web View? An Analysis of Progressive Web App Features When the Means of Web Access is not a Web Browser},
+  year   = {2018},
+  date   = {2018-04-27},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
