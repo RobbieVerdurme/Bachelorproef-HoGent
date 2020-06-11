@@ -38,6 +38,7 @@
 \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
 \usepackage{wrapfig} % Allows wrapping text around tables and figures
 \usepackage[export]{adjustbox}
+\usepackage{tabularx}
 
 \begin{document}
 
@@ -51,11 +52,10 @@
 % The widths of these boxes can be easily edited to accommodate your content as you see fit
 
 \begin{minipage}[t]{0.75\linewidth}
-\VeryHuge \color{HoGentAccent1} \textbf{Titel van uw bachelorproef} \color{Black}\\ % Title
-\Huge\textit{Ondertitel (eventueel)}\\[2.4cm] % Subtitle
-\huge \textbf{Naam Voornaam, co-promotor, promotor}\\[0.5cm] % Author(s)
+\VeryHuge \color{HoGentAccent1} \textbf{Kan de PWA de native applicatie vervangen ?} \color{Black}\\ % Title
+\huge \textbf{Verdurme Robbie, Delrue bart, Smits Lieven}\\[0.5cm] % Author(s)
 \huge Hogeschool Gent, Valentin Vaerwyckweg 1, 9000 Gent\\[0.4cm] % University/organization
-\Large \texttt{voornaam.naam@hogent.be} \\
+\Large \texttt{robbie.verdurme@hogent.be} \\
 \end{minipage}
 %
 \begin{minipage}[t]{0.25\linewidth}
@@ -76,9 +76,7 @@
 \color{HoGentAccent1} % Navy color for the abstract
 
 \begin{abstract}
-It's only a model.
-You don't vote for kings. Who's that then? We found them. Ni! Ni! Ni! Ni!
-The nose? On second thoughts, let's not go there. It is a silly place. Bloody Peasant! And the hat. She's a witch! Where'd you get the coconuts?
+In dit onderzoek werd nagegaan in welke mate de progressive web applicatie de native applicatie kan vervangen. Om dit te testen werd er een zelfde applicatie gemaakt zowel in progressive web applicatie vorm als in native applicatie vorm. Eens deze applicaties klaar waren, werden deze getest op vlak van snelheid, gebruiksvriendelijkheid en de benodigde ruimte die de applicatie inneemt op het apparaat. Uit het onderzoek bleek dat de progressive web applicatie 90.67\% kleiner is dan de native applicatie maar niet sneller is. De native applicatie had een gemiddelde van 2.360 seconden terwijl de progressive web applicatie een gemiddelde van 2.693 seconden behaalde op het filteren van een menu.
 \end{abstract}
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
@@ -88,15 +86,7 @@ The nose? On second thoughts, let's not go there. It is a silly place. Bloody Pe
 \section*{Introductie}
 \color{black}
 \color{black}
-Be quiet! Found them? In Mercia?! The coconut's tropical! But you are dressed as one… Well, what do you want? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
-
-Well, what do you want? It's only a model. Camelot! We found them. We shall say 'Ni' again to you, if you do not appease us.
-
-The nose? Shut up! Burn her! I am your king. You don't vote for kings.
-
-You can't expect to wield supreme power just 'cause some watery tart threw a sword at you! Well, we did do the nose. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
-
-Why do you think that she is a witch? We want a shrubbery!! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!
+De native applicatie kent al een aantal jaren succes op de markt, dit is ondermeer te danken aan de komst van de play- en app store. Maar niet iedereen heeft toegang tot dit platform, denk aan huawei die met zijn eigen store op de markt komt. De applicaties die op een store platform beschikbaar zijn, zijn meestal wel een aantal megabyte groot en  dit is een probleem voor mensen die weinig ruimte hebben op hun apparaat. Een oplossing hiervoor is de progressive web applicatie. Een progressive web applicatie is een webapplicatie die offline beschikbaar kan gemaakt worden voor de gebruiker. Indien de gebruiker dat wenst kan deze als applicatie geïnstalleerd worden op het apparaat om het gevoel van een native applicatie na te bootsen. Om deze reden komen we tot de volgende onderzoeksvraag,  kan de PWA de native applicatie vervangen?
 %----------------------------------------------------------------------------------------
 %	GEOLOGY
 %----------------------------------------------------------------------------------------
@@ -105,25 +95,74 @@ Why do you think that she is a witch? We want a shrubbery!! I don't want to talk
 \color{HoGentAccent1} 
 \section*{Experimenten}
 \color{black}
-A newt? Camelot! Why? No, no, no! Yes, yes. A bit. But she's got a wart.
+Om na te gaan of de progressive web applicatie de native applicatie zou kunnen vervagen, werden er twee testen uitgevoerd op vlak van snelheid, gebruiksvriendelijkheid en werd de benodigde plaats vergeleken van de applicaties.
 
-Shut up! I dunno. Must be a king. Who's that then? Look, my liege! On second thoughts, let's not go there. It is a silly place.
+Een van de testen die werd uitgevoerd op beide applicaties is het opvragen en navigeren naar de detailpagina van een menu. Onderstaande grafiek geeft de resultaten hiervan weer.
 
-Shut up! Will you shut up?! No, no, no! Yes, yes. A bit. But she's got a wart. He hasn't got shit all over him. It's only a model. It's only a model.
+\begin{center}
+	\includegraphics[width=200px]{Rplot_DetailMenu_AllType}
+	\captionof{figure}{\color{HoGentAccent5} Detail menu ophalen test}
+\end{center}
 
-Bring her forward! I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave 
+\begin{center}
+		\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		Type        & Min.  & 1ste Qu. & Gemiddelde & 3de Qu. & Max.  \\
+		\hline
+		PWA         & 2.940 & 3.205    & 3.380      & 3.465   & 4.170 \\
+		\hline
+		Offline PWA & 2.050 & 3.138    & 3.292      & 3.478   & 4.610 \\
+		\hline
+		Native App  & 2.596 & 2.826    & 2.846      & 2.901   & 2.952 \\
+		\hline
+	\end{tabular}
+\end{center}
 
+De andere test die werd uitgevoerd op beide applicaties is het opzoeken van een menu aan de hand van de filter.
+\begin{center}
+	\includegraphics[width=200px]{Rplot_Filter_AllType}
+	\captionof{figure}{\color{HoGentAccent5} Menu filteren test}
+\end{center}
 
+\begin{center}
+		\centering
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		Type        & Min.  & 1ste Qu. & Gemiddelde & 3de Qu. & Max.  \\
+		\hline
+		PWA         & 2.380 & 2.522    & 2.693      & 2.745   & 4.360 \\
+		\hline
+		Offline PWA & 2.460 & 2.565    & 2.752      & 2.992   & 3.350 \\
+		\hline
+		Native App  & 2.118 & 2.152    & 2.360      & 2.474   & 2.950 \\
+		\hline
+	\end{tabular}
+\end{center}
 
-\color{HoGentAccent1} 
-\section*{Sectie met figuur}
-\color{black}
+Om de benodigde plaats te vergelijken, wordt er bekeken hoe groot de applicatie is van zodra de applicatie werd gedownload en eens de data werd opgevraagd. Er werd hiervoor gekozen omdat dat de progressive web applicatie zijn data offline cached en hierdoor meer ruimte zal innemen op het apparaat. 
+\begin{center}
+	\includegraphics[width=200px]{Rplot_BenodigdeRuimte_NativeApp}
+	\includegraphics[width=200px]{Rplot_BenodigdeRuimte_PWA}
+	\captionof{figure}{\color{HoGentAccent5} Benodigde ruimte applicaties}
+\end{center}
 
+\begin{center}
+	\centering
+\begin{tabular}{|c|c|c|}
+	\hline
+	Type              & Niet gecached    & Gecached    \\
+	\hline
+	PWA               & 0.307619188      & 0.416015625 \\
+	\hline
+	Native applicatie & 6.91             & 7.16        \\
+	\hline
+\end{tabular}
+\end{center}
 
-\begin{center}\vspace{1cm}
-\includegraphics[width=1.0\linewidth]{grail}
-\captionof{figure}{\color{HoGentAccent5} He hasn't got shit all over him. The nose? Where'd you get the coconuts? What do you mean? We shall say 'Ni' again to you, if you do not appease us}
-\end{center}\vspace{1cm}
+% TABLE
+
+Om de gebruiksvriendelijkheid te testen werd gevraagd aan een aantal proefpersonen om een paar specifieke taken uit te voeren. Een van deze taken is het opzoeken van een menu met behulp van de filter. Dit was voor de meeste mensen geen probleem op de native applicatie. Bij de progressive web applicatie sprong de filter niet in het oog waardoor de proefpersonen meer moeite hadden om de taak uit te voeren. De tweede taak was het toevoegen van een menu. Dit bleek geen probleem te zijn voor de proefpersonen bij de beide applicaties. 
 
 %------------------------------------------------
 
@@ -132,19 +171,18 @@ Bring her forward! I don't want to talk to you no more, you empty-headed animal 
 \color{HoGentAccent1} 
 \section*{Conclusies}
 \color{black}
-on't underestimate the Force. Oh God, my uncle. How am I ever gonna explain this? I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+Het doel van dit onderzoek was nagaan of de progressive web applicatie de native applicatie kan vervangen. Dit met behulp van twee identieke applicaties die getest werden op vlak van snelheid, gebruiksvriendelijkheid en de benodigde ruimte.
+
+Uit de resultaten is gebleken dat de PWA even gebruiksvriendelijk is als de native applicatie maar dat deze tot 94.19\% of 6.74 Megabyte kleiner is. Helaas is dit niet voldoende om de native applicatie te kunnen vervangen. De PWA heeft nog geen toegang tot meer specifieke functionaliteiten zoals de bluetooth module, geofencing en communicatie met andere applicaties. Dit limiteert de PWA in functionaliteit ten opzichte van de native applicatie. Ten opzichte van de gebruiksvriendelijkheid en terugvindbaarheid heeft de native applicatie een groot voordeel vanwege de store waarin alle applicaties kunnen teruggevonden worden, hiervoor werd een oplossing gevonden voor de PWA maar dit heeft nog niet de goede ondersteuning.
+Eens deze functionaliteiten toegevoegd zijn en de app store en play store een goede ondersteuning bieden voor een PWA zal dit een waardig alternatief zijn voor de native app.
+
 %----------------------------------------------------------------------------------------
 %	FORTHCOMING RESEARCH
 %----------------------------------------------------------------------------------------
 \color{HoGentAccent1} 
 \section*{Toekomstig onderzoek}
 \color{black}
-
-I care. So, what do you think of her, Han? No! Alderaan is peaceful. We have no weapons. You can't possibly… I have traced the Rebel spies to her. Now she is my only link to finding their secret base.
-
-Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense. You are a part of the Rebel Alliance and a traitor! Take her away! 
-
-
+De resultaten van de snelheidstesten werden behaald met een stabiele internetverbinding. Verder onderzoek is nodig om te bevestigen dat de progressive web applicatie trager is indien er geen netwerk verbinding is.
 %----------------------------------------------------------------------------------------
 
 \end{multicols}

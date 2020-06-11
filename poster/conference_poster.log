@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.14)  7 JUN 2020 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.14)  11 JUN 2020 11:37
 entering extended mode
 **./conference_poster.tex
 (conference_poster.tex
@@ -320,37 +320,56 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen159
 \@vwid@roff=\dimen160
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen161
+\extrarowheight=\dimen162
+\NC@list=\toks30
+\extratabsurround=\skip51
+\backup@length=\skip52
+)
+\TX@col@width=\dimen163
+\TX@old@table=\dimen164
+\TX@old@col=\dimen165
+\TX@target=\dimen166
+\TX@delta=\dimen167
+\TX@cols=\count121
+\TX@ftn=\toks31
+)
 (conference_poster.aux)
 \openout1 = `conference_poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 43.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen161
+\scratchcounter=\count122
+\scratchdimen=\dimen168
 \scratchbox=\box57
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen162
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks31
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen169
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks33
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -408,17 +427,17 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
-Package xcolor Warning: Incompatible color definition on input line 54.
+Package xcolor Warning: Incompatible color definition on input line 55.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <89.16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <51.6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 58.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 54--59
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
  []
 
@@ -429,7 +448,7 @@ Package pdftex.def Info: figures/HOGENT_Logo_Pos_rgb.png  used on input line 62
 .
 (pdftex.def)             Requested size: 369.88582pt x 208.55133pt.
 
-Overfull \hbox (19.72723pt too wide) in paragraph at lines 53--65
+Overfull \hbox (19.72723pt too wide) in paragraph at lines 54--65
 [][] [] 
  []
 
@@ -439,62 +458,97 @@ Package xcolor Warning: Incompatible color definition on input line 76.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 
-Package xcolor Warning: Incompatible color definition on input line 87.
+Package xcolor Warning: Incompatible color definition on input line 85.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <35.83> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
 
-Package xcolor Warning: Incompatible color definition on input line 105.
+Package xcolor Warning: Incompatible color definition on input line 95.
+
+<figures/Rplot_DetailMenu_AllType.png, id=3, 260.47313pt x 417.81094pt>
+File: figures/Rplot_DetailMenu_AllType.png Graphic file (type png)
+<use figures/Rplot_DetailMenu_AllType.png>
+Package pdftex.def Info: figures/Rplot_DetailMenu_AllType.png  used on input li
+ne 103.
+(pdftex.def)             Requested size: 200.75073pt x 322.01506pt.
+
+Package xcolor Warning: Incompatible color definition on input line 104.
 
 
-Package xcolor Warning: Incompatible color definition on input line 118.
+Package xcolor Warning: Incompatible color definition on input line 104.
 
-<figures/grail.jpg, id=3, 855.195pt x 481.8pt>
-File: figures/grail.jpg Graphic file (type jpg)
-<use figures/grail.jpg>
-Package pdftex.def Info: figures/grail.jpg  used on input line 124.
-(pdftex.def)             Requested size: 1002.183pt x 564.60797pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 109.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 109.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<figures/Rplot_Filter_AllType.png, id=4, 260.47313pt x 417.81094pt>
+File: figures/Rplot_Filter_AllType.png Graphic file (type png)
+<use figures/Rplot_Filter_AllType.png>
+Package pdftex.def Info: figures/Rplot_Filter_AllType.png  used on input line 1
+24.
+(pdftex.def)             Requested size: 200.75073pt x 322.01506pt.
+
 
 Package xcolor Warning: Incompatible color definition on input line 125.
 
 
 Package xcolor Warning: Incompatible color definition on input line 125.
 
+<figures/Rplot_BenodigdeRuimte_NativeApp.png, id=5, 260.47313pt x 417.81094pt>
+File: figures/Rplot_BenodigdeRuimte_NativeApp.png Graphic file (type png)
+<use figures/Rplot_BenodigdeRuimte_NativeApp.png>
+Package pdftex.def Info: figures/Rplot_BenodigdeRuimte_NativeApp.png  used on i
+nput line 145.
+(pdftex.def)             Requested size: 200.75073pt x 322.01506pt.
+<figures/Rplot_BenodigdeRuimte_PWA.png, id=6, 260.47313pt x 417.81094pt>
+File: figures/Rplot_BenodigdeRuimte_PWA.png Graphic file (type png)
+<use figures/Rplot_BenodigdeRuimte_PWA.png>
+Package pdftex.def Info: figures/Rplot_BenodigdeRuimte_PWA.png  used on input l
+ine 146.
+(pdftex.def)             Requested size: 200.75073pt x 322.01506pt.
 
-Package xcolor Warning: Incompatible color definition on input line 132.
+Package xcolor Warning: Incompatible color definition on input line 147.
 
 
-Package xcolor Warning: Incompatible color definition on input line 139.
+Package xcolor Warning: Incompatible color definition on input line 147.
 
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
+
+Package xcolor Warning: Incompatible color definition on input line 171.
+
+
+Package xcolor Warning: Incompatible color definition on input line 182.
+
 [1
 
 
 Non-PDF special ignored!
 <special> papersize=83.96cm,118.82cm
 {C:/Users/Boeferrob/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figur
-es/HOGENT_Logo_Pos_rgb.png> <./figures/grail.jpg>] (conference_poster.aux) ) 
+es/HOGENT_Logo_Pos_rgb.png> <./figures/Rplot_DetailMenu_AllType.png> <./figures
+/Rplot_Filter_AllType.png> <./figures/Rplot_BenodigdeRuimte_NativeApp.png> <./f
+igures/Rplot_BenodigdeRuimte_PWA.png>] (conference_poster.aux) ) 
 Here is how much of TeX's memory you used:
- 5476 strings out of 493303
- 83473 string characters out of 3138844
- 168428 words of memory out of 3000000
- 8925 multiletter control sequences out of 15000+200000
- 18918 words of font info for 36 fonts, out of 3000000 for 9000
+ 5607 strings out of 493303
+ 85774 string characters out of 3138844
+ 184208 words of memory out of 3000000
+ 9041 multiletter control sequences out of 15000+200000
+ 21065 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,77p,395b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:
-/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 
-2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_poster.pdf (1 page, 166074 bytes).
+ 41i,8n,77p,867b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
+tmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on conference_poster.pdf (1 page, 151466 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
